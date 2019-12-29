@@ -1,20 +1,9 @@
 ---
-id: 570
 title: Błąd wyświetlania metryk w Azure Storage
 date: 2017-12-23T22:32:51+01:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=570
-permalink: /2017/12/blad-metryk-azure-storage/
-image: /wp-content/uploads/2017/12/11682625885_4e0bdb28d8_c.jpg
-categories:
-  - Storage
-tags:
-  - ApplicationInsights
-  - Azure
-  - Error
-  - Metrics
-  - Storage
+image: /assets/images/2017/12/11682625885_4e0bdb28d8_c.jpg
+categories: [Storage]
+tags: [ApplicationInsights, Azure, Error, Metrics, Storage]
 ---
 Ostatnio na blogu niewiele się dzieje. Na szczęście wreszcie pokończyłem wszystkie dodatkowe sprawy, które na siebie wziąłem. Mam nadzieję, że w najbliższym czasie wreszcie bloga rozruszam.
 
@@ -30,15 +19,16 @@ Początkowo stwierdziłem, że błąd wynika z niepoprawnej konfiguracji diagnos
 
 Postanowiłem w tym miejscu skorzystać z niezawodnego F12 (Debugger) w przeglądarce by sprawdzić jak wygląda komunikacja Portalu Azure z chmurą i na tej podstawie poszukać rozwiązania. Moim oczom ukazały się następujące błędy:
 
-<pre class="EnlighterJSRAW" data-enlighter-language="null">Error 400: https://insights1.exp.azure.com/insights/api/Insights/GetMetricHistoryCollection HTTPS POST 
+```
+Error 400: https://insights1.exp.azure.com/insights/api/Insights/GetMetricHistoryCollection HTTPS POST 
 
-{"message":"There was an error processing your request. Please try again in a few moments.","httpStatusCode":"BadRequest","xMsServerRequestId":null,"stackTrace":null}</pre>
+{"message":"There was an error processing your request. Please try again in a few moments.","httpStatusCode":"BadRequest","xMsServerRequestId":null,"stackTrace":null}
+```
+```
+Error 409: https://insights1.exp.azure.com/insights/api/Insights/ListMetricDefinitions HTTPS POST
 
-&nbsp;
-
-<pre class="EnlighterJSRAW" data-enlighter-language="null">Error 409: https://insights1.exp.azure.com/insights/api/Insights/ListMetricDefinitions HTTPS POST
-
-{"message":"Please register the subscription 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' with Microsoft.Insights.","httpStatusCode":"Conflict","xMsServerRequestId":null,"stackTrace":null}</pre>
+{"message":"Please register the subscription 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' with Microsoft.Insights.","httpStatusCode":"Conflict","xMsServerRequestId":null,"stackTrace":null}
+```
 
 Z drugiego błędu wynika już bezpośrednio rozwiązanie problemu. Musimy zarejestrować Microsoft.Insights resource provider w naszej subskrypcji, szczegółową instrukcję znajdziesz <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-supported-services" target="_blank" rel="noopener">tutaj</a>.
 
