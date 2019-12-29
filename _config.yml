@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Marek Grabarz - Blog
-email: marek@protopia.tech
+title: Blog - Marek Grabarz
+email: m.grabarz@wp.pl
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -23,6 +23,7 @@ twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: dark
 search: true
+locale: pl-PL
 
 # Build settings
 markdown: kramdown
@@ -39,8 +40,7 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude:
-    - CNAME
+# exclude:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -120,3 +120,8 @@ tag_archive:
   disqus:
     shortname: "marekgrabarz"
  
+ analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-155099286-1"
+    anonymize_ip: false
