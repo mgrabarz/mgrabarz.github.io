@@ -65,30 +65,33 @@ author:
   bio: "My awesome biography constrained to a sentence or two goes here."
   location: "Warszawa, PL"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://grabarz.pl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/grabarz/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/marekgrabarz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/grabarz/"
+    - label: "Protopia"
+      icon: "fas fa-fw fa-link"
+      url: "https://protopia.tech"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/grabarz/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/marekgrabarz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/grabarz/"
+    - label: "Protopia"
+      icon: "fab fa-fw fa-link"
+      url: "https://protopia.tech"
 
 defaults:
   # _posts
