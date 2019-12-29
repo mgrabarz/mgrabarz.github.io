@@ -75,7 +75,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
     - label: "Protopia"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-link"
       url: "https://protopia.tech"
 
 footer:
