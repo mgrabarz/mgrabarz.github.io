@@ -120,7 +120,7 @@ tag_archive:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "marekgrabarz"
+    shortname: "grabarz"
  
 analytics:
   provider: "google"
