@@ -23,7 +23,8 @@ twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: dark
 search: true
-locale: pl-PL
+locale: "pl-PL"
+url: "https://grabarz.pl/"
 
 # Build settings
 markdown: kramdown
@@ -116,12 +117,12 @@ tag_archive:
   type: liquid
   path: /tags/
   
- comments:
+comments:
   provider: "disqus"
   disqus:
     shortname: "marekgrabarz"
  
- analytics:
+analytics:
   provider: "google"
   google:
     tracking_id: "UA-155099286-1"
