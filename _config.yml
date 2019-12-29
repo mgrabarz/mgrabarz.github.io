@@ -23,7 +23,7 @@ twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
-locale: "pl_PL"
+locale: "pl"
 url: "https://grabarz.pl/"
 
 # Build settings
