@@ -59,9 +59,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Marek Grabarz"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Marek Grabarz"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "My awesome biography constrained to a sentence or two goes here."
+  location: "Warszawa, PL"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
