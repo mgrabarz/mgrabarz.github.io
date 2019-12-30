@@ -13,18 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Kilka słów o architekturze i kodowaniu w chmurze"
+title: "Marek Grabarz | O technologii i architekturze IT"
 email: m.grabarz@wp.pl
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Pasjonat technoogii i rozwiązań chmurowych, Microsoft Azure MVP oraz Microsoft Certified Trainer. 
+  Na codzień doradzam dużym firmom w zakresie rozwiązań technologicznych, buduję strategię IT oraz szkolę zaspoły klientów oraz ich partnerów.
+  
 twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
 url: "https://grabarz.pl/"
-locale: "de"
+locale: "pl"
 
 # Build settings
 markdown: kramdown
