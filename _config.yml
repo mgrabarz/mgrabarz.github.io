@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Marek Grabarz"
+title: "Kilka słów o architekturze i kodowaniu w chmurze"
 email: m.grabarz@wp.pl
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -24,6 +24,7 @@ github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
 url: "https://grabarz.pl/"
+locale: "de"
 
 # Build settings
 markdown: kramdown
@@ -105,7 +106,6 @@ defaults:
       comments: true
       share: true
       related: true
-      locale: "pl"
   # _pages
   - scope:
       path: "_pages"
@@ -114,7 +114,6 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
-      locale: "pl"
 
 category_archive:
   type: liquid
