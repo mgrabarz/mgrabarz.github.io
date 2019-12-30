@@ -24,7 +24,7 @@ github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
 url: "https://grabarz.pl/"
-locale: "pl"
+locale: "en"
 
 # Build settings
 markdown: kramdown
