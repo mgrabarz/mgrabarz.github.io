@@ -23,7 +23,6 @@ twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
-locale: "pl"
 url: "https://grabarz.pl/"
 
 # Build settings
@@ -106,6 +105,7 @@ defaults:
       comments: true
       share: true
       related: true
+      locale: "pl"
   # _pages
   - scope:
       path: "_pages"
@@ -114,6 +114,7 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
+      locale: "pl"
 
 category_archive:
   type: liquid
