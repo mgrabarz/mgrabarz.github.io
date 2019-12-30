@@ -62,7 +62,7 @@ plugins:
 author:
   name: "Marek Grabarz"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  bio: "Pasjonat technoogii i rozwiązań chmurowych, Microsoft Azure MVP oraz Microsoft Certified Trainer. Na codzień doradzam dużym firmom w zakresie rozwiązań technologicznych, buduję strategię IT oraz szkolę zaspoły klientów i ich partnerów."
   location: "Warszawa, PL"
   links:
     - label: "LinkedIn"
