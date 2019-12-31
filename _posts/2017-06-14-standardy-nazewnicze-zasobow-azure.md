@@ -1,7 +1,8 @@
 ---
 title: Standardy nazewnicze zasobów w Azure
 date: 2017-06-14T19:15:40+02:00
-image: /assets/images/2017/06/checklist-2077021_640.jpg
+header:
+  teaser: /assets/images/2017/06/checklist-2077021_640.jpg
 categories:
   - Governance
 tags:

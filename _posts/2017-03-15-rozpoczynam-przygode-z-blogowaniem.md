@@ -1,16 +1,9 @@
 ---
-id: 10
 title: Rozpoczynam przygodę z blogowaniem
 date: 2017-03-15T22:07:47+01:00
-author: Marek
-layout: post
-guid: https://marekgrabarz.wordpress.com/?p=4
-permalink: /2017/03/rozpoczynam-przygode-z-blogowaniem/
-switch_like_status:
-  - "1"
-image: /wp-content/uploads/2017/03/background_thumbnail.jpg
+image: /assets/images/2017/03/background_thumbnail.jpg
 categories:
-  - Bez kategorii
+  - News
 tags:
   - Blog
 ---

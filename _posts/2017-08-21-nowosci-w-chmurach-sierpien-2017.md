@@ -1,7 +1,8 @@
 ---
 title: 'Nowości w chmurach &#8211; sierpień 2017'
 date: 2017-08-21T23:35:16+02:00
-image: /assets/images/2017/08/16100681368_59c91ee0e1_c.jpg
+header:
+  teaser: /assets/images/2017/08/16100681368_59c91ee0e1_c.jpg
 categories:
   - News
 tags:

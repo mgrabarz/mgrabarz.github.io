@@ -1,7 +1,8 @@
 ---
 title: Wdrożenie bacpac i aplikacji ASP.NET do Azure
 date: 2017-07-28T07:30:43+02:00
-image: /assets/images/2017/07/17319736742_d5e6ecf551_z.jpg
+header:
+  teaser: /assets/images/2017/07/17319736742_d5e6ecf551_z.jpg
 categories:
   - Architecture
 tags:

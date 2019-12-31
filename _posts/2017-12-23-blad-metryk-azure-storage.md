@@ -6,7 +6,6 @@ header:
 categories: [Storage]
 tags: [ApplicationInsights, Azure, Error, Metrics, Storage]
 ---
-![Image](/assets/images/2017/12/11682625885_4e0bdb28d8_c.jpg)
 
 Ostatnio na blogu niewiele się dzieje. Na szczęście wreszcie pokończyłem wszystkie dodatkowe sprawy, które na siebie wziąłem. Mam nadzieję, że w najbliższym czasie wreszcie bloga rozruszam.
 {: style="text-align: justify;"}

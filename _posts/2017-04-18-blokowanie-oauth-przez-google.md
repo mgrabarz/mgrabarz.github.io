@@ -1,7 +1,8 @@
 ---
 title: Jak się uchronić przed blokowaniem OAuth przez Google
 date: 2017-04-18T18:28:31+02:00
-image: /assets/images/2017/04/2017.04.18-oauth-2-sm-2.png
+header:
+  teaser: /assets/images/2017/04/2017.04.18-oauth-2-sm-2.png
 categories:
   - B2C
 tags:

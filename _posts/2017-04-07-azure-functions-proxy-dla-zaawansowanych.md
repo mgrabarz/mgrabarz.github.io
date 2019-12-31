@@ -1,7 +1,8 @@
 ---
 title: Azure Functions Proxy dla zaawansowanych
 date: 2017-04-07T05:55:14+02:00
-image: /assets/images/2017/04/07-04-2017-functions1.png
+header:
+  teaser: /assets/images/2017/04/07-04-2017-functions1.png
 categories:
   - Functions
 tags:

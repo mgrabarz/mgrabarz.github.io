@@ -1,7 +1,8 @@
 ---
 title: 'API Management - Konfiguracja security'
 date: 2017-10-07T16:19:18+02:00
-image: /assets/images/2017/10/frozen-locked-door-with-blue-padlock.jpg
+header:
+  teaser: /assets/images/2017/10/frozen-locked-door-with-blue-padlock.jpg
 categories:
   - API Management
 tags:

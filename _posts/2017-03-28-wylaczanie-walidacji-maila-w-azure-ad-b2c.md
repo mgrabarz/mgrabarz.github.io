@@ -1,14 +1,8 @@
 ---
-id: 190
 title: Wyłączanie walidacji maila w Azure AD B2C
 date: 2017-03-28T06:19:51+02:00
-author: Marek
-layout: post
-guid: https://marekgrabarz.wordpress.com/?p=190
-permalink: /2017/03/wylaczanie-walidacji-maila-w-azure-ad-b2c/
-switch_like_status:
-  - "1"
-image: /wp-content/uploads/2017/03/b2c.png
+header:
+  teaser: /assets/images/2017/03/b2c.png
 categories:
   - B2C
 tags:

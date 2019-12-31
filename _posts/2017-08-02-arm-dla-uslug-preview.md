@@ -1,7 +1,8 @@
 ---
 title: Jak uzyskać szablon ARM dla usług w Preview?
 date: 2017-08-02T09:28:52+02:00
-image: /assets/images/2017/08/Template-Microsoft-Azure.png
+header:
+  teaser: /assets/images/2017/08/Template-Microsoft-Azure.png
 categories:
   - Tools
 tags:

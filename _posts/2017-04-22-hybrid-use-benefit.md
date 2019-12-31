@@ -1,7 +1,8 @@
 ---
 title: 'Hybrid Use Benefit &#8211; Obniż koszt maszyn wirtualnych w Azure o nawet 40%'
 date: 2017-04-22T14:59:42+02:00
-image: /assets/images/2017/04/2017-04-22_hub_logo.png
+header:
+  teaser: /assets/images/2017/04/2017-04-22_hub_logo.png
 categories:
   - VMs
 tags:

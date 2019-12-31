@@ -1,7 +1,8 @@
 ---
 title: Zmiana adresu strony
 date: 2017-06-16T16:14:11+02:00
-image: /assets/images/2017/06/2017-06-16.suitcase.jpg
+header:
+  teaser: /assets/images/2017/06/2017-06-16.suitcase.jpg
 categories:
   - News
 tags:

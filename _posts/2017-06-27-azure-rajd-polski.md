@@ -1,7 +1,8 @@
 ---
 title: Jak wykorzystywany jest Azure w Rajdzie Polski
 date: 2017-06-27T00:34:39+02:00
-image: /assets/images/2017/06/rally-single-seater-racing-car-machine-sardinia-1-1.jpg
+header:
+  teaser: /assets/images/2017/06/rally-single-seater-racing-car-machine-sardinia-1-1.jpg
 categories:
   - Architecture
 tags:

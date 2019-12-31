@@ -1,7 +1,8 @@
 ---
 title: 'Zabezpiecz swoje API przy pomocy B2C &#8211; część druga'
 date: 2017-05-28T23:55:46+02:00
-image: /assets/images/2017/05/computer-keyboard.jpg
+header:
+  teaser: /assets/images/2017/05/computer-keyboard.jpg
 categories:
   - B2C
 tags:

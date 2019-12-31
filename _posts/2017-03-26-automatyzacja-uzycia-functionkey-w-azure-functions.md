@@ -1,14 +1,8 @@
 ---
-id: 93
 title: Automatyzacja użycia Function Key w Azure Functions
 date: 2017-03-26T10:55:42+02:00
-author: Marek
-layout: post
-guid: https://marekgrabarz.wordpress.com/?p=93
-permalink: /2017/03/automatyzacja-uzycia-functionkey-w-azure-functions/
-switch_like_status:
-  - "1"
-image: /wp-content/uploads/2017/04/07-04-2017-functions1.png
+header:
+  teaser: /assets/images/2017/04/07-04-2017-functions1.png
 categories:
   - Functions
 tags:

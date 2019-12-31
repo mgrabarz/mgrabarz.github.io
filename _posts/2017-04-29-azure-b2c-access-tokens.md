@@ -1,7 +1,8 @@
 ---
 title: 'Azure B2C Access Tokens &#8211; Zabezpiecz swoje API przy pomocy B2C'
 date: 2017-04-29T13:29:23+02:00
-image: /assets/images/2017/03/b2c.png
+header:
+  teaser: /assets/images/2017/03/b2c.png
 categories:
   - B2C
 tags:
