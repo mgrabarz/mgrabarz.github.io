@@ -1,6 +1,8 @@
 ---
 title: Statystyki w API Management
 date: 2017-11-26T22:53:41+01:00
+header:
+  teaser: /assets/images/2017/11/plane-schedule-board.jpg
 categories:
   - API Management
 tags:

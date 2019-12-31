@@ -1,6 +1,8 @@
 ---
 title: Błąd wyświetlania metryk w Azure Storage
 date: 2017-12-23T22:32:51+01:00
+header:
+  teaser: /assets/images/2017/12/11682625885_4e0bdb28d8_c.jpg
 categories: [Storage]
 tags: [ApplicationInsights, Azure, Error, Metrics, Storage]
 ---
