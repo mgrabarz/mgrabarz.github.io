@@ -1,5 +1,5 @@
 ---
-title: 'ARMClient &#8211; Świetne narzędzie do zarządzania zasobami w Azure'
+title: ARMClient - Świetne narzędzie do zarządzania zasobami w Azure
 date: 2017-07-18T07:33:04+02:00
 header:
   teaser: /assets/images/2017/07/tools-spanner-mechanic.png

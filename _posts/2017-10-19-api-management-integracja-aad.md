@@ -1,10 +1,10 @@
 ---
-title: 'API Management &#8211; Integracja z AAD'
+title: API Management - Integracja z AAD
 date: 2017-10-19T23:36:53+02:00
 header:
   teaser: /assets/images/2017/10/33715694656_7edc394988_c.jpg
 categories:
-  - API Management
+  - APIM
 tags:
   - AAD
   - API Management

@@ -4,7 +4,7 @@ date: 2017-09-30T19:20:11+02:00
 header:
   teaser: /assets/images/2017/09/12687690_9b8e70564a_z.jpg
 categories:
-  - API Management
+  - APIM
 tags:
   - API
   - API Management

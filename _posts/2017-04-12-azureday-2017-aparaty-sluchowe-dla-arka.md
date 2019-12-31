@@ -1,5 +1,5 @@
 ---
-title: 'AzureDay 2017 &#8211; Aparaty słuchowe dla Arka'
+title: AzureDay 2017 - Aparaty słuchowe dla Arka
 date: 2017-04-12T23:24:07+02:00
 header:
   teaser: /assets/images/2017/04/2017-04-12_Image1.jpg
