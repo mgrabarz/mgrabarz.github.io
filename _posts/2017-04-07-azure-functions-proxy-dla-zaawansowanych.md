@@ -1,14 +1,7 @@
 ---
-id: 280
 title: Azure Functions Proxy dla zaawansowanych
 date: 2017-04-07T05:55:14+02:00
-author: Marek
-layout: post
-guid: https://marekgrabarz.wordpress.com/?p=280
-permalink: /2017/04/azure-functions-proxy-dla-zaawansowanych/
-switch_like_status:
-  - "1"
-image: /wp-content/uploads/2017/04/07-04-2017-functions1.png
+image: /assets/images/2017/04/07-04-2017-functions1.png
 categories:
   - Functions
 tags:

@@ -1,12 +1,7 @@
 ---
-id: 366
 title: Jak się uchronić przed blokowaniem OAuth przez Google
 date: 2017-04-18T18:28:31+02:00
-author: Marek
-layout: post
-guid: http://marek.grabarze.com/?p=366
-permalink: /2017/04/blokowanie-oauth-przez-google/
-image: /wp-content/uploads/2017/04/2017.04.18-oauth-2-sm-2.png
+image: /assets/images/2017/04/2017.04.18-oauth-2-sm-2.png
 categories:
   - B2C
 tags:
@@ -31,7 +26,7 @@ W klasycznym rozwiązaniu aplikacja, kiedy chce zalogować użytkownika poprzez 
 
 Pozostaje nam już tylko temat B2C i jak skonfigurować usługę, by dla naszej aplikacji dopuszczała niestandardowy URN. We właściwościach aplikacji pojawiła się jakiś czas temu nowa opcja, dzięki której takie ustawienie jest możliwe:
 
-<img class="alignnone wp-image-373 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017.04.18-B2C-URN-Settinga.png" alt="" width="987" height="304" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/04/2017.04.18-B2C-URN-Settinga.png 987w, https://marekgrabarz.pl/wp-content/uploads/2017/04/2017.04.18-B2C-URN-Settinga-300x92.png 300w, https://marekgrabarz.pl/wp-content/uploads/2017/04/2017.04.18-B2C-URN-Settinga-768x237.png 768w" sizes="(max-width: 987px) 100vw, 987px" /> 
+<img class="alignnone wp-image-373 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017.04.18-B2C-URN-Settinga.png" alt="" width="987" height="304" srcset="assets/images/2017/04/2017.04.18-B2C-URN-Settinga.png 987w, assets/images/2017/04/2017.04.18-B2C-URN-Settinga-300x92.png 300w, assets/images/2017/04/2017.04.18-B2C-URN-Settinga-768x237.png 768w" sizes="(max-width: 987px) 100vw, 987px" /> 
 
 Ostatnia rzecz to zabezpieczenie się przed sytuacją,  kiedy inna aplikacja próbuje podkraść odpowiedź dotyczącą naszej próby logowania z przeglądarki. Możemy się przed takim zdarzeniem uchronić dzięki &#8220;pixy&#8221;: <a href="https://tools.ietf.org/html/rfc7636" target="_blank" rel="noopener noreferrer">Proof Key for Code Exchange</a>. W skrócie generujemy kod, który wysyłany jest wraz z żądaniem, tylko dzięki niemu możemy odszyfrować odpowiedź.
 

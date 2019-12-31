@@ -1,12 +1,7 @@
 ---
-id: 386
 title: 'Hybrid Use Benefit &#8211; Obniż koszt maszyn wirtualnych w Azure o nawet 40%'
 date: 2017-04-22T14:59:42+02:00
-author: Grabarz
-layout: post
-guid: http://marek.grabarze.com/?p=386
-permalink: /2017/04/hybrid-use-benefit/
-image: /wp-content/uploads/2017/04/2017-04-22_hub_logo.png
+image: /assets/images/2017/04/2017-04-22_hub_logo.png
 categories:
   - VMs
 tags:
@@ -21,7 +16,7 @@ Jedną z powszechnych metod obniżania kosztów podczas migracji do chmury jest 
 
 ### Czym jest Hybrid Use Benefit i kto może z niego skorzystać?
 
-Jeżeli posiadasz zakupione wcześniej licencje Windows Server z aktywnym pakietem Software Assurance przysługuje Ci wiele dodatkowych korzyści. Jedną z nich jest <a href="https://azure.microsoft.com/pl-pl/pricing/hybrid-use-benefit/" target="_blank" rel="noopener noreferrer">Hybrid Use Benefit</a>, umożliwiające użycie posiadanych licencji z serwerów on-premises na serwerach w chmurze. W efekcie cena maszyny wirtualnej uwzględnia jedynie infrastrukturę z pominięciem dodatkowych kosztów na system operacyjny.<img class="alignnone wp-image-392 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017.04.21_hybridUse.jpg" alt="" width="643" height="331" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/04/2017.04.21_hybridUse.jpg 643w, https://marekgrabarz.pl/wp-content/uploads/2017/04/2017.04.21_hybridUse-300x154.jpg 300w" sizes="(max-width: 643px) 100vw, 643px" />
+Jeżeli posiadasz zakupione wcześniej licencje Windows Server z aktywnym pakietem Software Assurance przysługuje Ci wiele dodatkowych korzyści. Jedną z nich jest <a href="https://azure.microsoft.com/pl-pl/pricing/hybrid-use-benefit/" target="_blank" rel="noopener noreferrer">Hybrid Use Benefit</a>, umożliwiające użycie posiadanych licencji z serwerów on-premises na serwerach w chmurze. W efekcie cena maszyny wirtualnej uwzględnia jedynie infrastrukturę z pominięciem dodatkowych kosztów na system operacyjny.<img class="alignnone wp-image-392 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017.04.21_hybridUse.jpg" alt="" width="643" height="331" srcset="assets/images/2017/04/2017.04.21_hybridUse.jpg 643w, assets/images/2017/04/2017.04.21_hybridUse-300x154.jpg 300w" sizes="(max-width: 643px) 100vw, 643px" />
 
 Poza powyższą korzyścią <a href="https://www.microsoft.com/en-us/licensing/licensing-programs/faq-software-assurance.aspxhttps://www.microsoft.com/en-us/licensing/licensing-programs/faq-software-assurance.aspx" target="_blank" rel="noopener noreferrer">Software Assurance</a> umożliwia również:
 
@@ -33,7 +28,7 @@ Poza powyższą korzyścią <a href="https://www.microsoft.com/en-us/licensing/l
 
 ### Jak korzystać z Hybrid Use Benefit dla nowych i istniejących maszyn wirtualnych?
 
-W przypadku wdrażania nowych maszyn wirtualnych z Windows Server możemy skorzystać z dedykowanych obrazów w Azure. Możemy je znaleźć poprzez wpisanie frazy &#8220;HUB Windows&#8221;. Maszyny wdrożone z tych obrazów mają automatycznie wyłączone naliczanie kosztów systemu operacyjnego po stronie Azure.<img class="alignnone wp-image-396 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017-04-22_hub.png" alt="" width="786" height="435" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/04/2017-04-22_hub.png 786w, https://marekgrabarz.pl/wp-content/uploads/2017/04/2017-04-22_hub-300x166.png 300w, https://marekgrabarz.pl/wp-content/uploads/2017/04/2017-04-22_hub-768x425.png 768w" sizes="(max-width: 786px) 100vw, 786px" />
+W przypadku wdrażania nowych maszyn wirtualnych z Windows Server możemy skorzystać z dedykowanych obrazów w Azure. Możemy je znaleźć poprzez wpisanie frazy &#8220;HUB Windows&#8221;. Maszyny wdrożone z tych obrazów mają automatycznie wyłączone naliczanie kosztów systemu operacyjnego po stronie Azure.<img class="alignnone wp-image-396 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/2017-04-22_hub.png" alt="" width="786" height="435" srcset="assets/images/2017/04/2017-04-22_hub.png 786w, assets/images/2017/04/2017-04-22_hub-300x166.png 300w, assets/images/2017/04/2017-04-22_hub-768x425.png 768w" sizes="(max-width: 786px) 100vw, 786px" />
 
 Podobny efekt możemy uzyskać poprzez użycie klasycznych obrazów dla maszyn wirtualnych i zaznaczenie opcji &#8220;Already have a Windows Server license?&#8221; podczas podawania właściwości maszyny.
 

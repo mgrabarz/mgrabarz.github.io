@@ -1,12 +1,7 @@
 ---
-id: 437
 title: Standardy nazewnicze zasobów w Azure
 date: 2017-06-14T19:15:40+02:00
-author: Grabarz
-layout: post
-guid: http://marek.grabarze.com/?p=437
-permalink: /2017/06/standardy-nazewnicze-zasobow-azure/
-image: /wp-content/uploads/2017/06/checklist-2077021_640.jpg
+image: /assets/images/2017/06/checklist-2077021_640.jpg
 categories:
   - Governance
 tags:

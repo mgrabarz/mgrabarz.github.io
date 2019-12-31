@@ -1,21 +1,16 @@
 ---
-id: 539
-title: 'API Management &#8211; Konfiguracja security'
+title: 'API Management - Konfiguracja security'
 date: 2017-10-07T16:19:18+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=539
-permalink: /2017/10/api-management-security/
-image: /wp-content/uploads/2017/10/frozen-locked-door-with-blue-padlock.jpg
+image: /assets/images/2017/10/frozen-locked-door-with-blue-padlock.jpg
 categories:
   - API Management
-  - Governance
 tags:
   - API
   - API Management
   - APIM
   - RBAC
   - Security
+- - Governance
 ---
 W zeszłym tygodniu <a href="https://marekgrabarz.pl/2017/09/azure-api-management/" target="_blank" rel="noopener">rozpocząłem </a>serię wpisów na temat Azure API Management. W dzisiejszej części poruszę tematykę  modelu uprawnień wbudowanego w usługę. Pomimo że na pierwszy rzut oka wydaje się on bardzo prosty, po przeczytaniu poniższego wpisu będziesz mógł w pełni kontrolować uprawnienia do zarządzania treścią widoczną na portalu.
 

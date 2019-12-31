@@ -1,17 +1,11 @@
 ---
-id: 462
 title: Zmiana adresu strony
 date: 2017-06-16T16:14:11+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=462
-permalink: /2017/06/zmiana-adresu-strony/
-image: /wp-content/uploads/2017/06/2017-06-16.suitcase.jpg
+image: /assets/images/2017/06/2017-06-16.suitcase.jpg
 categories:
-  - Bez kategorii
+  - News
 tags:
   - Blog
-format: aside
 ---
 Niemal od samego początku istnienia tego bloga, jego adres budził ciekawe emocje. W założeniu adres *.grabarze.com miał służyć zbudowaniu kilku podstron dla osób w mojej w rodzinie, gdyby tylko takiej potrzebowali. Niestety słyszałem też komentarze, że brzmi on po prostu dziwnie lub kojarzy się ze &#8220;stowarzyszeniem&#8221; grabarzy. Brakowało jedynie podstron w stylu warszawa.grabarze.com, albo podlasie.grabarze.com 🙂
 

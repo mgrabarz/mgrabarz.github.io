@@ -1,12 +1,7 @@
 ---
-id: 520
 title: 'Nowości w chmurach &#8211; sierpień 2017'
 date: 2017-08-21T23:35:16+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=520
-permalink: /2017/08/nowosci-w-chmurach-sierpien-2017/
-image: /wp-content/uploads/2017/08/16100681368_59c91ee0e1_c.jpg
+image: /assets/images/2017/08/16100681368_59c91ee0e1_c.jpg
 categories:
   - News
 tags:

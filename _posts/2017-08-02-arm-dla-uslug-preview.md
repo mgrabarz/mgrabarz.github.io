@@ -1,12 +1,7 @@
 ---
-id: 514
 title: Jak uzyskać szablon ARM dla usług w Preview?
 date: 2017-08-02T09:28:52+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=514
-permalink: /2017/08/arm-dla-uslug-preview/
-image: /wp-content/uploads/2017/08/Template-Microsoft-Azure.png
+image: /assets/images/2017/08/Template-Microsoft-Azure.png
 categories:
   - Tools
 tags:
@@ -15,7 +10,6 @@ tags:
   - Deployment
   - Portal
   - Preview
-format: aside
 ---
 Jeden z naszych kolegów w Azurowym community, Kacper Mucha, uruchomił ostatnio swojego <a href="https://kacpermucha.github.io/" target="_blank" rel="noopener">bloga</a>. W związku z tym, że jest on niesamowitym ekspertem PowerShell w wydaniu chmurowym, na pewno będzie o czym czytać w miarę pojawiania się nowych wpisów.
 
@@ -27,7 +21,7 @@ Wdrożenie szablonu dokonywane jest w ramach jednej grupy zasobów (<a href="htt
 
 Dostęp do historii jest stosunkowo prosty. Na portalu wchodzimy do grupy zasobów, w której wykonaliśmy zmiany i otwieramy zakładkę &#8220;Deployments&#8221;. W zakładce mamy pełną historię wdrożeń od samego początku jej istnienia. Historia zawiera nie tylko szablon, ale również wszystkie parametry wejściowe oraz log z wykonanych kroków (niejednokrotnie zakończony błędami). W tym punkcie warto powtórzyć raz jeszcze część powyższego zdania &#8211; wszystkie parametry wejściowe, które zostały przekazane &#8220;plain text&#8217;em&#8221; są tam dostępne, mogą zawierać loginy/hasła, klucze &#8211; warto wtedy pomyśleć o <a href="https://azure.microsoft.com/en-us/services/key-vault/" target="_blank" rel="noopener">KeyVault</a>!
 
-<img class="alignnone wp-image-517 size-large" src="https://marekgrabarz.pl/wp-content/uploads/2017/08/DeploymentsBlade-1024x256.png" alt="" width="730" height="183" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/08/DeploymentsBlade-1024x256.png 1024w, https://marekgrabarz.pl/wp-content/uploads/2017/08/DeploymentsBlade-300x75.png 300w, https://marekgrabarz.pl/wp-content/uploads/2017/08/DeploymentsBlade-768x192.png 768w, https://marekgrabarz.pl/wp-content/uploads/2017/08/DeploymentsBlade.png 1689w" sizes="(max-width: 730px) 100vw, 730px" /> 
+<img class="alignnone wp-image-517 size-large" src="assets/images/2017/08/DeploymentsBlade-1024x256.png" alt="" width="730" height="183" srcset="assets/images/2017/08/DeploymentsBlade-1024x256.png 1024w, assets/images/2017/08/DeploymentsBlade-300x75.png 300w, assets/images/2017/08/DeploymentsBlade-768x192.png 768w, assets/images/2017/08/DeploymentsBlade.png 1689w" sizes="(max-width: 730px) 100vw, 730px" /> 
 
 Szablon oczywiście możemy skopiować, zmodyfikować, wdrożyć ponownie &#8211; wszystko wewnątrz portalu. Wrażenia zbliżone są do Visual Studio i okienka &#8220;JSON Outline&#8221;, które zwykle jest używane przy tworzeniu szablonów. Kacper przytoczył BotService jak jedna z tych usług, która jest w Preview bez dobrych przykładów szablonów. Z historii uzyskałem taki szablon:
 

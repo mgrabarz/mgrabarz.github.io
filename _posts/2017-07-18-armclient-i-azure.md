@@ -1,12 +1,7 @@
 ---
-id: 487
 title: 'ARMClient &#8211; Świetne narzędzie do zarządzania zasobami w Azure'
 date: 2017-07-18T07:33:04+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=487
-permalink: /2017/07/armclient-i-azure/
-image: /wp-content/uploads/2017/07/tools-spanner-mechanic.png
+image: /assets/images/2017/07/tools-spanner-mechanic.png
 categories:
   - Tools
 tags:

@@ -1,12 +1,7 @@
 ---
-id: 496
 title: Wdrożenie bacpac i aplikacji ASP.NET do Azure
 date: 2017-07-28T07:30:43+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=496
-permalink: /2017/07/bacpac-asp-net-do-azure/
-image: /wp-content/uploads/2017/07/17319736742_d5e6ecf551_z.jpg
+image: /assets/images/2017/07/17319736742_d5e6ecf551_z.jpg
 categories:
   - Architecture
 tags:
@@ -23,13 +18,13 @@ Na początku swojej przygody z blogowaniem przeprowadziłem krótkie rozeznanie 
 
 Pierwszym krokiem, który wykonałem, było zastanowienie się, jakich komponentów Azure mój blog potrzebuje. Wybór padł rzecz jasna na usługi w modelu platformowym, czyli PaaS. Sama aplikacja miała wylądować w <a href="https://azure.microsoft.com/en-us/services/app-service/web/" target="_blank" rel="noopener">WebApps </a>na AppService, baza danych w <a href="https://azure.microsoft.com/en-us/services/sql-database/" target="_blank" rel="noopener">SQL Database</a>, a logowanie wszelkich błędów i danych o wydajności w <a href="https://azure.microsoft.com/en-us/services/application-insights/" target="_blank" rel="noopener">Application Insights</a>. Dla osób, które taką konfigurację widziały już wielokrotnie, obiecuję jeden trick (bacpac) w dalszej części, którego się przy okazji nauczyłem.
 
-<img class="alignnone wp-image-499 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/07/BlogEngine.png" alt="Wdrożenie ASP.NET do Azure" width="619" height="441" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/07/BlogEngine.png 619w, https://marekgrabarz.pl/wp-content/uploads/2017/07/BlogEngine-300x214.png 300w" sizes="(max-width: 619px) 100vw, 619px" /> 
+<img class="alignnone wp-image-499 size-full" src="assets/images/2017/07/BlogEngine.png" alt="Wdrożenie ASP.NET do Azure" width="619" height="441" srcset="assets/images/2017/07/BlogEngine.png 619w, assets/images/2017/07/BlogEngine-300x214.png 300w" sizes="(max-width: 619px) 100vw, 619px" /> 
 
 Kolejnym krokiem jest przygotowanie szablonu ARM, by nasza architekturę każdorazowo wdrażać automatycznie. Jest to szczególnie ważne, ponieważ otwiera nam to spektrum możliwości i korzyści. Jeżeli temat nie jest Ci bliski, to odsyłam do następujących tematów: Continuous Delivery, Continuous Configuration Automation i Infrastructure as a Code.
 
 W tym celu zrobiłem fork oficjalnego repozytorium BlogEngine (ostateczny wynik z poprawkami opisanymi poniżej znajdziesz <a href="https://github.com/mgrabarz/BlogEngine.NET" target="_blank" rel="noopener">tutaj</a>). Do solucji projektu dodałem nowy projekt typu Azure Resource Group z poziomu VisualStudio, natomiast można się bez tego obyć. Sam szablon json, umieszczony luzem poza projektem,  jest w zupełności wystarczający.
 
-<img class="alignnone wp-image-500 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/07/New-Project.png" alt="VS add new Resource Group" width="912" height="351" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/07/New-Project.png 912w, https://marekgrabarz.pl/wp-content/uploads/2017/07/New-Project-300x115.png 300w, https://marekgrabarz.pl/wp-content/uploads/2017/07/New-Project-768x296.png 768w" sizes="(max-width: 912px) 100vw, 912px" /> 
+<img class="alignnone wp-image-500 size-full" src="assets/images/2017/07/New-Project.png" alt="VS add new Resource Group" width="912" height="351" srcset="assets/images/2017/07/New-Project.png 912w, assets/images/2017/07/New-Project-300x115.png 300w, assets/images/2017/07/New-Project-768x296.png 768w" sizes="(max-width: 912px) 100vw, 912px" /> 
 
 Od tego momentu możemy zacząć opisywać naszą docelową infrastrukturę w pliku i automatycznie wdrażać ją do Azure. Sam proces wdrażania można wykonać testowo <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy" target="_blank" rel="noopener">bezpośrednio z VS</a>, lub na wiele innych sposobów, np. przez <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy" target="_blank" rel="noopener">PowerShell</a>. Osobiście rekomenduję, by zbudować pełny proces w oparciu o VSTS, ale w opisywanym przypadku sytuacja wygląda nieco inaczej ze względu na potrzeby. Pisanie szablonów przy pierwszym zetknięciu może być nieco skomplikowane, na szczęście VS trochę nam sprawę ułatwia. Możemy również skorzystać z &#8220;gotowców&#8221; dostępnych na <a href="https://github.com/Azure/azure-quickstart-templates" target="_blank" rel="noopener">Azure Quickstart Templates</a>.
 

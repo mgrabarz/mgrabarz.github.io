@@ -1,12 +1,7 @@
 ---
-id: 468
 title: Jak wykorzystywany jest Azure w Rajdzie Polski
 date: 2017-06-27T00:34:39+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=468
-permalink: /2017/06/azure-rajd-polski/
-image: /wp-content/uploads/2017/06/rally-single-seater-racing-car-machine-sardinia-1-1.jpg
+image: /assets/images/2017/06/rally-single-seater-racing-car-machine-sardinia-1-1.jpg
 categories:
   - Architecture
 tags:
@@ -44,7 +39,7 @@ Centralnym zagadnieniem, które musimy rozwiązać jest zapewnienie komunikacji 
   * W celu optymalizacji ruchu w kolejkach i w sieci używamy <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-sql-filter" target="_blank" rel="noopener">SqlFilter</a>, który sprawia, że komunikaty w subskrypcjach trafiają tylko do bramek będących w tym samym regionie. To ważne usprawnienie, które pozwoliło mi zmniejszyć ruch niemal o rząd wielkości.
   * Przy użyciu powyższej klasy możemy wreszcie opanować nasz model wielu klientów. Dla klientów premium możemy użyć kolejek w trybie Premium, z dedykowanym Message Unit(s). Dla wersji dla mniejszych klientów, współdzielonych kolejek z filtrem.<figure id="attachment_478" aria-describedby="caption-attachment-478" style="width: 521px" class="wp-caption aligncenter">
 
-<img class="wp-image-478 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/06/TopicSubscription.png" alt="topic-subscription" width="521" height="462" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/06/TopicSubscription.png 521w, https://marekgrabarz.pl/wp-content/uploads/2017/06/TopicSubscription-300x266.png 300w" sizes="(max-width: 521px) 100vw, 521px" /> <figcaption id="caption-attachment-478" class="wp-caption-text">Model topic-subscription</figcaption></figure> 
+<img class="wp-image-478 size-full" src="assets/images/2017/06/TopicSubscription.png" alt="topic-subscription" width="521" height="462" srcset="assets/images/2017/06/TopicSubscription.png 521w, assets/images/2017/06/TopicSubscription-300x266.png 300w" sizes="(max-width: 521px) 100vw, 521px" /> <figcaption id="caption-attachment-478" class="wp-caption-text">Model topic-subscription</figcaption></figure> 
 
 Kiedy już opanujemy zagadnienia komunikacyjne, musimy zatroszczyć się o tematykę bezpieczeństwa. Definiujemy kto i jak może wysyłać komunikaty na topic i odbierać dane z subskrypcji. W tym celu możemy wygenerować unikalny <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-sas" target="_blank" rel="noopener">SAS</a> (shared access signature) dla instancji naszej aplikacji. Takie podejście nie zabezpieczy nas niestety przed tym, że na topic nie trafią spreparowane wiadomości. W tym miejscu warto przyjrzeć się <a href="https://azure.microsoft.com/en-us/services/functions/" target="_blank" rel="noopener">Azure Functions</a>, które może zweryfikować wystawiony dla instancji &#8220;token&#8221; i w jej imieniu wysłać zaufaną wiadomość do topic&#8217;a. Wyzwalaczem dla funkcji będzie oczywiście żądanie POST przez HTTPS.
 
@@ -64,7 +59,7 @@ Całość rozwiązania dopełnia Application Insights (logowanie aplikacyjne z k
 
 Całość opisanej architektury przedstawiona jest na poniższym diagramie:
 
-<img class="aligncenter wp-image-479 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/06/EventArchitecture.jpg" alt="system architecture" width="699" height="771" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/06/EventArchitecture.jpg 699w, https://marekgrabarz.pl/wp-content/uploads/2017/06/EventArchitecture-272x300.jpg 272w" sizes="(max-width: 699px) 100vw, 699px" /> 
+<img class="aligncenter wp-image-479 size-full" src="assets/images/2017/06/EventArchitecture.jpg" alt="system architecture" width="699" height="771" srcset="assets/images/2017/06/EventArchitecture.jpg 699w, assets/images/2017/06/EventArchitecture-272x300.jpg 272w" sizes="(max-width: 699px) 100vw, 699px" /> 
 
 Użyte komponenty dają się łatwo skalować, a przy dobrze zdefiniowanym &#8220;Infrastructure as Code&#8221; możemy nasze środowisko szybko tworzyć i likwidować (pozostawiając dane). Do tego typu zadań idealnie nadają się <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates" target="_blank" rel="noopener">szablony ARM</a>, których przykłady można znaleźć na <a href="https://github.com/Azure/azure-quickstart-templates" target="_blank" rel="noopener">Azure Quickstart Templates</a>.
 

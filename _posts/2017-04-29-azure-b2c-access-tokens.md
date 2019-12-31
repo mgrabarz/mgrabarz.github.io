@@ -1,12 +1,7 @@
 ---
-id: 410
 title: 'Azure B2C Access Tokens &#8211; Zabezpiecz swoje API przy pomocy B2C'
 date: 2017-04-29T13:29:23+02:00
-author: Grabarz
-layout: post
-guid: http://marek.grabarze.com/?p=410
-permalink: /2017/04/azure-b2c-access-tokens/
-image: /wp-content/uploads/2017/03/b2c.png
+image: /assets/images/2017/03/b2c.png
 categories:
   - B2C
 tags:
@@ -54,13 +49,13 @@ W chwili obecnej możemy tworzyć własne scope w aplikacji backendowej, a nast�
 
 [Przykład]. Chcielibyśmy umożliwić naszym klientom z B2C tworzenie i czytanie notatek pod produktami, które sprzedajemy. Tworzymy API, które taką funkcjonalność wystawia i definiujemy dwa scope.<figure id="attachment_416" aria-describedby="caption-attachment-416" style="width: 610px" class="wp-caption alignnone">
 
-<img class="wp-image-416 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png" alt="" width="610" height="334" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png 610w, https://marekgrabarz.pl/wp-content/uploads/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6-300x164.png 300w" sizes="(max-width: 610px) 100vw, 610px" /> <figcaption id="caption-attachment-416" class="wp-caption-text">Source: https://azure.microsoft.com/en-us/blog/azure-ad-b2c-access-tokens-now-in-public-preview/</figcaption></figure> 
+<img class="wp-image-416 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png" alt="" width="610" height="334" srcset="assets/images/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png 610w, assets/images/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6-300x164.png 300w" sizes="(max-width: 610px) 100vw, 610px" /> <figcaption id="caption-attachment-416" class="wp-caption-text">Source: https://azure.microsoft.com/en-us/blog/azure-ad-b2c-access-tokens-now-in-public-preview/</figcaption></figure> 
 
 Mamy również dwie aplikacje. Pierwsza aplikacja wyświetla produkty i pokazuje notatki użytkowników pod produktami. Druga aplikacja pozwala wykonywać zakupy i dodawać notatki do zakupionych produktów. Dość często zdarza się, że używając OAuth 2.0 i autoryzując aplikację, jesteśmy po zalogowaniu pytani o wyrażenie zgody na np: &#8220;Allow this app to post notes under your name&#8221;, &#8220;Allow this app to read your notes&#8221;. To nic innego jak scope, a konkretnie &#8220;user consent&#8221; zezwalający aplikacji na wykonywanie pewnych operacji na backendowych API w Twoim imieniu. Przytoczony wcześniej <code class="EnlighterJSRAW" data-enlighter-language="null">openid</code> scope, to z kolei zezwolenie na dostęp do Twoich claimów, czyli maila, nazwiska, adresu itp.
 
 W B2C tego typu pytanie się nie pojawia, to my jako administratorzy mamy kontrolę nad tym, która aplikacja ma uprawnienia do naszych API i jakie są to uprawnienia. Dla naszych aplikacji klienckich konfiguracja wygląda następująco:<figure id="attachment_417" aria-describedby="caption-attachment-417" style="width: 610px" class="wp-caption alignnone">
 
-<img class="wp-image-417 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png" alt="" width="610" height="566" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png 610w, https://marekgrabarz.pl/wp-content/uploads/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293-300x278.png 300w" sizes="(max-width: 610px) 100vw, 610px" /> <figcaption id="caption-attachment-417" class="wp-caption-text">Source: https://azure.microsoft.com/en-us/blog/azure-ad-b2c-access-tokens-now-in-public-preview/</figcaption></figure> 
+<img class="wp-image-417 size-full" src="http://marek.grabarze.com/wp-content/uploads/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png" alt="" width="610" height="566" srcset="assets/images/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png 610w, assets/images/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293-300x278.png 300w" sizes="(max-width: 610px) 100vw, 610px" /> <figcaption id="caption-attachment-417" class="wp-caption-text">Source: https://azure.microsoft.com/en-us/blog/azure-ad-b2c-access-tokens-now-in-public-preview/</figcaption></figure> 
 
 W tym momencie mamy pełną kontrolę, że aplikacje klienckie pomimo zalogowania użytkownika mają dostęp do jedynie wskazanych przez nas API lub nawet poszczególnych ich metod.
 

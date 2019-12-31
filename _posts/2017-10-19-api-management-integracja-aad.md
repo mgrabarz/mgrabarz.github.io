@@ -1,14 +1,8 @@
 ---
-id: 551
-title: 'API Management &#8211; Integracja z AAD'
+title: 'API Management - Integracja z AAD'
 date: 2017-10-19T23:36:53+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=551
-permalink: /2017/10/api-management-integracja-aad/
 image: /wp-content/uploads/2017/10/33715694656_7edc394988_c.jpg
 categories:
-  - AAD
   - API Management
 tags:
   - AAD
@@ -36,7 +30,7 @@ Proces integracji jest dość dobrze opisany <a href="https://docs.microsoft.com
 
   * Czytając dokumentację można odnieść wrażenie, że aplikację w AAD należy stworzyć w starym portalu. Oczywiście nowy portal jest w zupełności wystarczający. <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications" target="_blank" rel="noopener">Ten </a>wpis pewnie Ci trochę w tym pomoże.
   * Przy tworzeniu aplikacji AAD musimy nadać jej dwa scope, <a href="https://msdn.microsoft.com/en-us/library/azure/ad/graph/howto/azure-ad-graph-api-permission-scopes" target="_blank" rel="noopener">User.Read oraz Directory.Read.Al</a>l. Drugi stanowi pewien problem, ponieważ jest uprawnieniem bezpośrednim i wymaga zgody administratora naszego AAD. Musimy go przekonać, by zezwolił API Management na buszowanie po liście użytkowników i grup.  
-<img class="alignnone wp-image-554 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/10/grantpermissions.png" alt="" width="727" height="263" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/10/grantpermissions.png 727w, https://marekgrabarz.pl/wp-content/uploads/2017/10/grantpermissions-300x109.png 300w" sizes="(max-width: 727px) 100vw, 727px" /> 
+<img class="alignnone wp-image-554 size-full" src="assets/images/2017/10/grantpermissions.png" alt="" width="727" height="263" srcset="assets/images/2017/10/grantpermissions.png 727w, assets/images/2017/10/grantpermissions-300x109.png 300w" sizes="(max-width: 727px) 100vw, 727px" /> 
 
 ### Zarządzanie widocznością API przy pomocy grup AAD
 

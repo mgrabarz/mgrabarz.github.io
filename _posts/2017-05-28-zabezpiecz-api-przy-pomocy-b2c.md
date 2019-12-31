@@ -1,12 +1,7 @@
 ---
-id: 428
 title: 'Zabezpiecz swoje API przy pomocy B2C &#8211; część druga'
 date: 2017-05-28T23:55:46+02:00
-author: Grabarz
-layout: post
-guid: http://marek.grabarze.com/?p=428
-permalink: /2017/05/zabezpiecz-api-przy-pomocy-b2c/
-image: /wp-content/uploads/2017/05/computer-keyboard.jpg
+image: /assets/images/2017/05/computer-keyboard.jpg
 categories:
   - B2C
 tags:

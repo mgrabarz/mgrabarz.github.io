@@ -1,20 +1,15 @@
 ---
-id: 533
 title: Seria wpisów o Azure API Management
 date: 2017-09-30T19:20:11+02:00
-author: Grabarz
-layout: post
-guid: https://marekgrabarz.pl/?p=533
-permalink: /2017/09/azure-api-management/
-image: /wp-content/uploads/2017/09/12687690_9b8e70564a_z.jpg
+image: /assets/images/2017/09/12687690_9b8e70564a_z.jpg
 categories:
   - API Management
-  - Governance
 tags:
   - API
   - API Management
   - APIM
   - Azure
+- - Governance
 ---
 Muszę przyznać, że trochę się ostatnio ociągałem w temacie blogowania. W celu poprawienia aktywności postanowiłem stworzyć serię wpisów na konkretny temat. Same wpisy będą zdecydowanie krótsze, poruszające tylko wybrany aspekt opisywanej technologii. Na pierwszy ogień idzie Azure API Management, którym miałem okazję się sporo zajmować w ostatnich miesiącach.
 
