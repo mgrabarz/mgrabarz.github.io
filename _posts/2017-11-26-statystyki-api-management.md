@@ -1,7 +1,6 @@
 ---
 title: Statystyki w API Management
 date: 2017-11-26T22:53:41+01:00
-image: /assets/images/2017/11/plane-schedule-board.jpg
 categories:
   - API Management
 tags:
@@ -15,6 +14,8 @@ tags:
   - Stream Analytics
   - Governance
 ---
+![Image](/assets/images/2017/11/plane-schedule-board.jpg)
+
 Kilka tygodni temu, w ramach przeglądania newsów ze świata Azure, zauważyłem ciekawe rozwiązanie. Grupa produktowa z API Management stworzyła <a href="http://aka.ms/apimpbi" target="_blank" rel="noopener">szablon</a>, który integruje tę usługę z PowerBI. Stworzone raporty fajnie pokazują podstawowe statystyki API Management z rozbiciem na poszczególne API, metody, produkty i ich subskrybentów. Dodatkowo smaczku dodaje Machine Learning wykrywający niepoprawne użycie i anomalie we wzorcach wywołań.
 {: style="text-align: justify;"}
 
