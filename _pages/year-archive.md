@@ -1,6 +1,7 @@
 ---
-title: "Wpisy w latach"
+title: "Wpisy"
 permalink: /posts/
-layout: posts
+layout: grid
 author_profile: true
+classes: wide
 ---
