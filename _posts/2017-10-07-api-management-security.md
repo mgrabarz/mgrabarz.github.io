@@ -11,7 +11,7 @@ tags:
   - APIM
   - RBAC
   - Security
-- - Governance
+  - Governance
 ---
 W zeszłym tygodniu <a href="https://marekgrabarz.pl/2017/09/azure-api-management/" target="_blank" rel="noopener">rozpocząłem </a>serię wpisów na temat Azure API Management. W dzisiejszej części poruszę tematykę  modelu uprawnień wbudowanego w usługę. Pomimo że na pierwszy rzut oka wydaje się on bardzo prosty, po przeczytaniu poniższego wpisu będziesz mógł w pełni kontrolować uprawnienia do zarządzania treścią widoczną na portalu.
 

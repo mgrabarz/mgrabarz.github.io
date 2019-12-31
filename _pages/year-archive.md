@@ -1,7 +1,6 @@
 ---
 title: "Wpisy"
 permalink: /posts/
-layout: grid
+layout: posts
 author_profile: true
-classes: wide
 ---
