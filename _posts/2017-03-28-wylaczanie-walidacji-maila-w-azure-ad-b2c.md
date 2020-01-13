@@ -41,7 +41,7 @@ W zeszłym miesiącu na blogu nowości Azure pojawił się następujący wpis: <
 
 Ustawienie to jest dość mocno ukryte, ale z pomocą powyższego wpisu łatwe do odnalezienia. Nawigujemy do ustawień naszej polisy, dostosowywania UI, dalej ustawienia lokalnej strony zakładania konta, klikamy w atrybut Email Address i jesteśmy na miejscu, uff!
 
-<img class="alignnone size-full wp-image-218" src="http://marek.grabarze.com/wp-content/uploads/2017/03/2017-03-28-06_47_20-b2c-settings.png" alt="2017-03-28 06_47_20-B2C- Settings" width="1199" height="398" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/03/2017-03-28-06_47_20-b2c-settings.png 1199w, https://marekgrabarz.pl/wp-content/uploads/2017/03/2017-03-28-06_47_20-b2c-settings-300x100.png 300w, https://marekgrabarz.pl/wp-content/uploads/2017/03/2017-03-28-06_47_20-b2c-settings-768x255.png 768w, https://marekgrabarz.pl/wp-content/uploads/2017/03/2017-03-28-06_47_20-b2c-settings-1024x340.png 1024w" sizes="(max-width: 1199px) 100vw, 1199px" /> 
+![img](/assets/images/2017/03/2017-03-28-06_47_20-b2c-settings.png)
 
 Przełączamy "Require verification" na "no" i wyłączamy sprawdzanie emaila, pytanie tylko czy jest to najlepsze rozwiązanie? Uwaga, nie zapomnij zapisać zmian na "Edit policy".
 

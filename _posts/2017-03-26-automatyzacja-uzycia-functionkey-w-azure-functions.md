@@ -18,23 +18,26 @@ Podczas implementacji funkcji z HTTP trigger musimy pamiętać, że jest ona wys
 W dużym skrócie rozróżniamy dwa klucze, Host Key definiowany na poziomie całego FunctionApp oraz Function Key dedykowany dla jednej funkcji. Uwierzytelnianie kluczem odbywa się na jeden z dwóch wspieranych sposobów:
 {: style="text-align: justify;"}
 
-  * Klucz jest przekazywany jako parametr w QueryStringu, np:
+- Klucz jest przekazywany jako parametr w QueryStringu, np:
+  
 ```html
 <yourapp>.azurewebsites.net/api/<funcName>?code=<yourApiKey>
 ```
-  * Klucz jest przekazywany w nagłówku żądania:
-  ```
+
+- Klucz jest przekazywany w nagłówku żądania:
+
+```html
   x-functions-key
-  ```
+```
 
 Po zweryfikowaniu klucza przechodzimy do etapu autoryzacji, tutaj mamy trzy możliwości skonfigurowania naszej funkcji:
-  * Anonymous, dopuszcza każde żądanie, w tym również te bez klucza
-  * Function, dopuszcza tylko uwierzytelnione żądania z Host Key lub z Function Key
-  * Admin, dopuszcza tylko uwierzytelnione żądania z Host Key.
+
+- Anonymous, dopuszcza każde żądanie, w tym również te bez klucza
+- Function, dopuszcza tylko uwierzytelnione żądania z Host Key lub z Function Key
+- Admin, dopuszcza tylko uwierzytelnione żądania z Host Key.
 {: style="text-align: justify;"}
 
 Kluczami możemy zarządzać poprzez portal, lub przy pomocy API, przy czym w dokumentacji znajdziemy następujący, nieco rozczarowujący wpis:
-
 _To support programmatic key management, the host exposes a key management API. API documentation coming soon_
 
 ## Automatyzacja i zarządzanie kluczami w Azure Functions
@@ -53,21 +56,29 @@ Pierwszy pomysł to próba zdefiniowania klucza w szablonie ARM, lub uzyskanie g
 Pliki są zaszyfrowane, można je zastąpić niezaszyfrowanymi wersjami ze zdefiniowanymi przez nas kluczami. Rozwiązanie takie, mimo że wykonalne, nie zalicza się do najbardziej eleganckich  &#8211; zdecydowanie nie zasługuje na tak długi opis. Na szczęście pozostaje nam jeszcze API, a konkretnie Kudu API:
 {: style="text-align: justify;"}
 
-  1. Wysyłamy żądanie GET na adres Kudu, w celu uzyskania Master Key.
-```
+1. Wysyłamy żądanie GET na adres Kudu, w celu uzyskania Master Key.
+
+```html
 <yourApp>.scm.azurewebsites.net/api/functions/admin/masterkey
 ```
+
 ![img](/assets/images/2017/03/kudu_masterkey1.png)
-  2. Klucz Master Key umożliwia pozyskanie kluczy zarówno Host Key, jak również Function Key dla poszczególnych funkcji.
-  3. W celu uzyskania Function Key, wysyłamy GET na adres:
-```
+
+1. Klucz Master Key umożliwia pozyskanie kluczy zarówno Host Key, jak również Function Key dla poszczególnych funkcji.
+2. W celu uzyskania Function Key, wysyłamy GET na adres:
+
+```html
 <yourApp>.azurewebsites.net/admin/functions/<functionName>/KEYS?CODE=<masterKey>
 ```
+
 ![img](/assets/images/2017/03/kudu_funckey.png)
-  4. Pobranie Host Key odbywa się poprzez wysłanie GET na adres:
-```
+
+1. Pobranie Host Key odbywa się poprzez wysłanie GET na adres:
+
+```html
 <yourApp>.azurewebsites.net/admin/HOST/KEYS?CODE=<masterKey>
 ```
+
 ![img](/assets/images/2017/03/kudu_hostkey.png)
 
 ## Podsumowanie
@@ -86,7 +97,7 @@ _Kudu API wymaga deployment credentials, które możemy pobrać z naszej Functio
 
 _Drugie wywołanie z kolei wymaga klasycznego Bearer tokena, przykład jego generowania w Powershell wygląda mniej więcej tak:_
 
-```
+```shell
 # Load ADAL Assemblies
 $adal = "C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\Microsoft.IdentityModel.Clients.ActiveDirectory.dll"
 $adalforms = "C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll"

@@ -21,7 +21,7 @@ Nie o tym jednak będzie dzisiejszy wpis. Podczas sesji otwierającej wspomnieli
 W lutym postanowiliśmy przekazać nadwyżki pieniędzy od sponsorów AzureDay 2017 na cel charytatywny. <a href="https://twitter.com/WasilewskiEmil" target="_blank" rel="noopener noreferrer">Emil</a> wytypował fundację, która zbierała środki na mały dom dziecka pod Sierpcem.
 {: style="text-align: justify;"}
 
-(img)[!/assets/images/2017/04/2017-04-12_IMG_0389-225x300.jpg]
+![img](/assets/images/2017/04/2017-04-12_IMG_0389-225x300.jpg)
 
 Jak się okazało po paru dniach, poza standardowymi potrzebami, dom dziecka zbierał fundusze na aparaty słuchowe dla jednego z dzieciaków, który ma znaczną wadę słuchu. W tym momencie kilka zapadek wpadło na swoje miejsce: Arek potrzebuje aparatów, jednym ze sponsorów AzureDay'a jest <a href="http://www.demant-technology.com/" target="_blank" rel="noopener noreferrer">Demant Technology Centre</a> (centrum R&D producenta najlepszych aparatów na świecie), a ja, jako pracownik DTC mam u sponsora "wejścia".  Sprawy od tego momentu potoczyły się dość szybko i już na początku kwietnia miałem możliwość przekazać sprzęt (o wartości mocno przekraczającej 20k PLN) do rąk Pani Dyrektor domu dziecka. W najbliższych dniach Arek odbędzie kilka wizyt u protetyka słuchu i wkrótce stanie się użytkownikiem nowych OPNów 🙂
 {: style="text-align: justify;"}
@@ -29,8 +29,8 @@ Jak się okazało po paru dniach, poza standardowymi potrzebami, dom dziecka zbi
 Całe wydarzenie jest dla mnie wyjątkowo inspirujące i daje mi niesamowicie dużo satysfakcji. Poza udziałem w organizacji AzureDay&#8217;a mogłem przyczynić się do sprawienia radości i poprawy komfortu życia młodej osoby. Ogromne brawa należą się również DTC, a w szczególności Ani i Agnieszce, które bez wahania podjęły temat i doprowadziły go do samego końca!
 {: style="text-align: justify;"}
 
-(img)[!/assets/images/2017/04/2017-04-12_IMG_0377-300x225.jpg]
-(img)[!/assets/images/2017/04/2017-04-12_IMG_0374-300x225.jpg]
+![img](!/assets/images/2017/04/2017-04-12_IMG_0377-300x225.jpg)
+![img](!/assets/images/2017/04/2017-04-12_IMG_0374-300x225.jpg)
 
 P.S. W jednym z pomieszczeń w domu dziecka zauważyłem cytat A. Einsteina _&#8220;Be a voice, not an echo&#8221;._ To kolejna inspiracja i zachęta, by się udzielać i angażować, robić coś swojego, nowego i unikalnego, a na efekty nie trzeba będzie długo czekać.
 {: style="text-align: justify;"}

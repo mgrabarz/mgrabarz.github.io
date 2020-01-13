@@ -36,7 +36,8 @@ Okazuje się, że plik proxies.json powstający podczas konfiguracji funkcji prz
  "backendUri":"https://%WEBSITE_HOSTNAME%/api/Persons/{id}"
 }
 ```
--  Mamy również opcję dokonywania zmian w Request i w Response, ale o tym poniżej.
+
+- Mamy również opcję dokonywania zmian w Request i w Response, ale o tym poniżej.
 
 ### Modyfikacja wartości Request i Response
 
