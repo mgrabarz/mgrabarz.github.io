@@ -29,8 +29,8 @@ Jak się okazało po paru dniach, poza standardowymi potrzebami, dom dziecka zbi
 Całe wydarzenie jest dla mnie wyjątkowo inspirujące i daje mi niesamowicie dużo satysfakcji. Poza udziałem w organizacji AzureDay&#8217;a mogłem przyczynić się do sprawienia radości i poprawy komfortu życia młodej osoby. Ogromne brawa należą się również DTC, a w szczególności Ani i Agnieszce, które bez wahania podjęły temat i doprowadziły go do samego końca!
 {: style="text-align: justify;"}
 
-![img](!/assets/images/2017/04/2017-04-12_IMG_0377-300x225.jpg)
-![img](!/assets/images/2017/04/2017-04-12_IMG_0374-300x225.jpg)
+![img](/assets/images/2017/04/2017-04-12_IMG_0377-300x225.jpg)
+![img](/assets/images/2017/04/2017-04-12_IMG_0374-300x225.jpg)
 
 P.S. W jednym z pomieszczeń w domu dziecka zauważyłem cytat A. Einsteina _&#8220;Be a voice, not an echo&#8221;._ To kolejna inspiracja i zachęta, by się udzielać i angażować, robić coś swojego, nowego i unikalnego, a na efekty nie trzeba będzie długo czekać.
 {: style="text-align: justify;"}
