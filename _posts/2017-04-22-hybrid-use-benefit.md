@@ -21,7 +21,7 @@ Jedną z powszechnych metod obniżania kosztów podczas migracji do chmury jest 
 Jeżeli posiadasz zakupione wcześniej licencje Windows Server z aktywnym pakietem Software Assurance przysługuje Ci wiele dodatkowych korzyści. Jedną z nich jest <a href="https://azure.microsoft.com/pl-pl/pricing/hybrid-use-benefit/" target="_blank" rel="noopener noreferrer">Hybrid Use Benefit</a>, umożliwiające użycie posiadanych licencji z serwerów on-premises na serwerach w chmurze. W efekcie cena maszyny wirtualnej uwzględnia jedynie infrastrukturę z pominięciem dodatkowych kosztów na system operacyjny.
 {: style="text-align: justify;"}
 
-![img](assets/images/2017/04/2017.04.21_hybridUse.jpg)
+![img](/assets/images/2017/04/2017.04.21_hybridUse.jpg)
 
 Poza powyższą korzyścią <a href="https://www.microsoft.com/en-us/licensing/licensing-programs/faq-software-assurance.aspxhttps://www.microsoft.com/en-us/licensing/licensing-programs/faq-software-assurance.aspx" target="_blank" rel="noopener noreferrer">Software Assurance</a> umożliwia również:
 {: style="text-align: justify;"}
@@ -37,12 +37,12 @@ Poza powyższą korzyścią <a href="https://www.microsoft.com/en-us/licensing/l
 W przypadku wdrażania nowych maszyn wirtualnych z Windows Server możemy skorzystać z dedykowanych obrazów w Azure. Możemy je znaleźć poprzez wpisanie frazy "HUB Windows". Maszyny wdrożone z tych obrazów mają automatycznie wyłączone naliczanie kosztów systemu operacyjnego po stronie Azure.
 {: style="text-align: justify;"}
 
-![img](assets/images/2017/04/2017-04-22_hub.png)
+![img](/assets/images/2017/04/2017-04-22_hub.png)
 
 Podobny efekt możemy uzyskać poprzez użycie klasycznych obrazów dla maszyn wirtualnych i zaznaczenie opcji "Already have a Windows Server license?" podczas podawania właściwości maszyny.
 {: style="text-align: justify;"}
 
-![img](2017/04/2017-04-22_saveMoney.png)
+![img](/assets/images/2017/04/2017-04-22_saveMoney.png)
 
 Jeżeli posiadamy już maszyny wirtualne, które nie wykorzystują Hybrid Use Benefit nie mamy prostego sposobu na jego włączenie. Jedyną możliwością jest usunięcie maszyny wirtualnej i stworzenie jej od nowa z odpowiednimi ustawieniami. Jeżeli nie mamy wdrożonego configuration management może stanowić to pewien problem, ponieważ w większości przypadków nie chcemy &#8220;ręcznie&#8221; migrować konfiguracji na nową maszynę. W celu poradzenia sobie z problemem przygotowałem bardzo wstępną wersję skryptu migracyjnego. W pierwszym kroku wyłączamy i kasujemy maszynę wirtualną pozostawiając jej interfejsy sieciowe, dyski z systemem operacyjnym i z danymi. Następnie w powershell po zalogowaniu i wybrania naszych subskrypcji uruchamiamy następujący skrypt:
 {: style="text-align: justify;"}

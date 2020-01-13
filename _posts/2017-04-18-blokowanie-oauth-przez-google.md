@@ -44,7 +44,7 @@ com.grabarze.marek.myapp://loginredirect
 
 Pozostaje nam już tylko temat B2C i jak skonfigurować usługę, by dla naszej aplikacji dopuszczała niestandardowy URN. We właściwościach aplikacji pojawiła się jakiś czas temu nowa opcja, dzięki której takie ustawienie jest możliwe:
 
-![img](assets/images/2017/04/2017.04.18-B2C-URN-Settinga.png)
+![img](/assets/images/2017/04/2017.04.18-B2C-URN-Settinga.png)
 
 Ostatnia rzecz to zabezpieczenie się przed sytuacją,  kiedy inna aplikacja próbuje podkraść odpowiedź dotyczącą naszej próby logowania z przeglądarki. Możemy się przed takim zdarzeniem uchronić dzięki "pixy" <a href="https://tools.ietf.org/html/rfc7636" target="_blank" rel="noopener noreferrer">Proof Key for Code Exchange</a>. W skrócie generujemy kod, który wysyłany jest wraz z żądaniem, tylko dzięki niemu możemy odszyfrować odpowiedź.
  {: style="text-align: justify;"}
