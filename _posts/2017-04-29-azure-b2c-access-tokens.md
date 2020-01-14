@@ -58,7 +58,7 @@ W chwili obecnej możemy tworzyć własne scope w aplikacji backendowej, a nast�
 [Przykład]. Chcielibyśmy umożliwić naszym klientom z B2C tworzenie i czytanie notatek pod produktami, które sprzedajemy. Tworzymy API, które taką funkcjonalność wystawia i definiujemy dwa scope.
 {: style="text-align: justify;"}
 
-![img](assets/images/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png)
+![img](/assets/images/2017/04/0fb084eb-4770-4c53-8984-2f981999ddd6.png)
 
 Mamy również dwie aplikacje. Pierwsza aplikacja wyświetla produkty i pokazuje notatki użytkowników pod produktami. Druga aplikacja pozwala wykonywać zakupy i dodawać notatki do zakupionych produktów. Dość często zdarza się, że używając OAuth 2.0 i autoryzując aplikację, jesteśmy po zalogowaniu pytani o wyrażenie zgody na np: "Allow this app to post notes under your name", "llow this app to read your notes". To nic innego jak scope, a konkretnie "user consent" zezwalający aplikacji na wykonywanie pewnych operacji na backendowych API w Twoim imieniu. Przytoczony wcześniej "openid" scope, to z kolei zezwolenie na dostęp do Twoich claimów, czyli maila, nazwiska, adresu itp.
 {: style="text-align: justify;"}
@@ -66,7 +66,7 @@ Mamy również dwie aplikacje. Pierwsza aplikacja wyświetla produkty i pokazuje
 W B2C tego typu pytanie się nie pojawia, to my jako administratorzy mamy kontrolę nad tym, która aplikacja ma uprawnienia do naszych API i jakie są to uprawnienia. Dla naszych aplikacji klienckich konfiguracja wygląda następująco:
 {: style="text-align: justify;"}
 
-![img](assets/images/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png)
+![img](/assets/images/2017/04/e607c1dd-1a5d-4349-98a4-80db5172e293.png)
 
 W tym momencie mamy pełną kontrolę, że aplikacje klienckie pomimo zalogowania użytkownika mają dostęp do jedynie wskazanych przez nas API lub nawet poszczególnych ich metod.
 {: style="text-align: justify;"}
