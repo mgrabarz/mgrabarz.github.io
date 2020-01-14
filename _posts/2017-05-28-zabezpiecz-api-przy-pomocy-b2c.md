@@ -95,7 +95,8 @@ services.AddAuthorization(options =&gt;
 });
 ```
 
-Powyższy fragment wydaje się dość jasny. Na uwagę zasługuje fakt, że nie znalazłem dobrej metody, która w pełni obsługuje Scope (będący Claim'em, z poszczególnymi uprawnieniami oddzielonymi spacjami). W tym celu powstała klasa **ScopeAuthorizationRequirement** która takie właśnie przeszukiwanie (string.split) wykonuje oraz metody rozszerzeń do **AuthorizationPolicyBuilder**, które nasze wymaganie wstrzykują.
+Powyższy fragment wydaje się dość jasny. Na uwagę zasługuje fakt, że nie znalazłem dobrej metody, która w pełni obsługuje Scope (będący Claim'em z poszczególnymi uprawnieniami oddzielonymi spacjami). W tym celu powstała klasa **ScopeAuthorizationRequirement** która takie właśnie przeszukiwanie (string.split) wykonuje oraz metody rozszerzeń do **AuthorizationPolicyBuilder**, które nasze wymaganie wstrzykują.
+{: style="text-align: justify;"}
 
 ```csharp
 public static class AuthorizationPolicyBuilderExtensions
