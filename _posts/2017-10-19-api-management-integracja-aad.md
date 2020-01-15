@@ -12,7 +12,7 @@ tags:
   - Azure
   - B2C
 ---
-W [poprzednim](https://marekgrabarz.pl/2017/10/api-management-security/) artykule wspomniałem, że następny wpis poświęcę opisowi integracji API Management  z Azure Active Directory. Dzisiaj postaram się szybko opisać proces konfiguracji i pokazać Ci kilka ciekawych opcji związanych z zarządzaniem tożsamością w usłudze.
+W [poprzednim](https://grabarz.pl/apim/api-management-security/) artykule wspomniałem, że następny wpis poświęcę opisowi integracji API Management  z Azure Active Directory. Dzisiaj postaram się szybko opisać proces konfiguracji i pokazać Ci kilka ciekawych opcji związanych z zarządzaniem tożsamością w usłudze.
 
 ### Logowanie do Developer Portalu przez AAD
 

@@ -29,7 +29,7 @@ Kolejnym krokiem jest przygotowanie szablonu ARM, by nasza architekturę każdor
 W tym celu zrobiłem fork oficjalnego repozytorium BlogEngine (ostateczny wynik z poprawkami opisanymi poniżej znajdziesz <a href="https://github.com/mgrabarz/BlogEngine.NET" target="_blank" rel="noopener">tutaj</a>). Do solucji projektu dodałem nowy projekt typu Azure Resource Group z poziomu VisualStudio, natomiast można się bez tego obyć. Sam szablon json, umieszczony luzem poza projektem,  jest w zupełności wystarczający.
 {: style="text-align: justify;"}
 
-![img](assets/images/2017/07/New-Project.png)
+![img](/assets/images/2017/07/New-Project.png)
 
 Od tego momentu możemy zacząć opisywać naszą docelową infrastrukturę w pliku i automatycznie wdrażać ją do Azure. Sam proces wdrażania można wykonać testowo <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy" target="_blank" rel="noopener">bezpośrednio z VS</a>, lub na wiele innych sposobów, np. przez <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy" target="_blank" rel="noopener">PowerShell</a>. Osobiście rekomenduję, by zbudować pełny proces w oparciu o VSTS, ale w opisywanym przypadku sytuacja wygląda nieco inaczej ze względu na potrzeby. Pisanie szablonów przy pierwszym zetknięciu może być nieco skomplikowane, na szczęście VS trochę nam sprawę ułatwia. Możemy również skorzystać z gotowców dostępnych na <a href="https://github.com/Azure/azure-quickstart-templates" target="_blank" rel="noopener">Azure Quickstart Templates</a>.
 {: style="text-align: justify;"}

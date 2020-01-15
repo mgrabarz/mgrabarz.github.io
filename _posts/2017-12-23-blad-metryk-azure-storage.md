@@ -13,7 +13,7 @@ Ostatnio na blogu niewiele się dzieje. Na szczęście wreszcie pokończyłem ws
 Na rozgrzewkę postanowiłem podzielić się pewnym problemem i jego rozwiązaniem dotyczącym Azure Storage Account (ale nie tylko). Mianowicie chodzi o błąd wyświetlania metryk na Storage Account o następującej treści &#8220;**A problem occurred loading metrics. Please try again later.**&#8221;
 {: style="text-align: justify;"}
 
-<img class="alignnone wp-image-572 size-full" src="https://marekgrabarz.pl/wp-content/uploads/2017/12/2017-12-23-21_52_44.png" alt="A problem occurred loading metrics. Please try again later." width="758" height="512" srcset="https://marekgrabarz.pl/wp-content/uploads/2017/12/2017-12-23-21_52_44.png 758w, https://marekgrabarz.pl/wp-content/uploads/2017/12/2017-12-23-21_52_44-300x203.png 300w" sizes="(max-width: 758px) 100vw, 758px" /> 
+![img](/assets/images/2017/12/2017-12-23-21_52_44.png)
 
 ### Rozwiązanie problemu
 
@@ -26,12 +26,13 @@ Początkowo stwierdziłem, że błąd wynika z niepoprawnej konfiguracji diagnos
 Postanowiłem w tym miejscu skorzystać z niezawodnego F12 (Debugger) w przeglądarce by sprawdzić jak wygląda komunikacja Portalu Azure z chmurą i na tej podstawie poszukać rozwiązania. Moim oczom ukazały się następujące błędy:
 {: style="text-align: justify;"}
 
-```
+```txt
 Error 400: https://insights1.exp.azure.com/insights/api/Insights/GetMetricHistoryCollection HTTPS POST 
 
 {"message":"There was an error processing your request. Please try again in a few moments.","httpStatusCode":"BadRequest","xMsServerRequestId":null,"stackTrace":null}
 ```
-```
+
+```txt
 Error 409: https://insights1.exp.azure.com/insights/api/Insights/ListMetricDefinitions HTTPS POST
 
 {"message":"Please register the subscription 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' with Microsoft.Insights.","httpStatusCode":"Conflict","xMsServerRequestId":null,"stackTrace":null}
