@@ -41,7 +41,7 @@ Mała uwaga, jeśli Twoje APIM nie jest jakoś mocno używane, będziesz musiał
 Na poniższym, nieco uproszczonym diagramie, możemy zobaczyć jak statystyki API Management są zbierane i analizowane przez wdrożone rozwiązanie.
 {: style="text-align: justify;"}
 
-![Architektura rozwiązania](/assets/images/2017/11/api-management-1024x352.png")
+![Architektura rozwiązania](/assets/images/2017/11/api-management-1024x352.png)
 
 W pierwszym kroku wszystkie zdarzenia wrzucane są do <a href="https://azure.microsoft.com/en-us/services/event-hubs/" target="_blank" rel="noopener">Event Huba</a>, ten z kolei wpięty jest jako wejście do <a href="https://azure.microsoft.com/en-us/services/stream-analytics/" target="_blank" rel="noopener">Stream Analytics</a>. Czemu nie bezpośrednio, otóż taka jest natura Stream Analytics. Potrafi konsumować tylko z IoT/Event Hub, lub z Blob Storage, ale to bardziej pod potrzeby wcześniej zgromadzonych danych. Usługa rozdziela spływające zdarzenia na poszczególne kategorie i umieszcza je w bazie <a href="https://azure.microsoft.com/en-us/services/sql-database/" target="_blank" rel="noopener">SQL Database</a>. Dla osób z nieco głębszym portfelem, lub przy naprawdę sporym ruchu, mamy możliwość zastąpienia bazy przez <a href="https://azure.microsoft.com/en-us/services/analysis-services/" target="_blank" rel="noopener">Azure Analysis Services.</a>{: style="text-align: justify;"}
 
