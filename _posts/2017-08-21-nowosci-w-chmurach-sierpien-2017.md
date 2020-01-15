@@ -20,10 +20,15 @@ tags:
   - VMs
 ---
 W zeszły czwartek miałem okazję po raz pierwszy gościć, tym razem po drugiej stronie ekranu, na Webinarze organizowanym przez <a href="https://chmurowisko.pl" target="_blank" rel="noopener">chmurowisko.pl</a> i <a href="https://twitter.com/miroburn" target="_blank" rel="noopener">Mirka Burnejko</a>. Celem było przedstawienie nowości, jakie pojawiły się u trzech wiodących dostawców chmurowych.
+{: style="text-align: justify;"}
 
 Część związana z Google Cloud Platform została przedstawiona przez <a href="https://www.linkedin.com/in/michal-szafranski-0490a015/" target="_blank" rel="noopener">Michała Szafrańskiego</a>, nowości z Amazon Web Services omówił <a href="https://www.linkedin.com/in/piotrowskipawel/" target="_blank" rel="noopener">Paweł Piotrowski</a>, mi przypadł w udziale Azure. Całe nagranie wyszło bardzo fajnie mimo kilku wpadek technicznych, ale te pewnie zostaną wyeliminowane przy następnej okazji. Panowie, jeśli kiedyś traficie na mój wpis, chciałem Wam pogratulować &#8211; wykonaliście kawał dobrej roboty!
+{: style="text-align: justify;"}
 
-Zapraszam do oglądania, naprawdę warto.[embedyt] https://www.youtube.com/watch?v=3HosGSFOW1U[/embedyt]
+Zapraszam do oglądania, naprawdę warto.
+{: style="text-align: justify;"}
+
+<iframe width="1060" height="596" src="https://www.youtube.com/embed/3HosGSFOW1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Linki do materiałów na temat nowości w Microsoft Azure
 
@@ -49,17 +54,17 @@ Nowe, hybrydowe podejście w modelu PaaS. Cykl wydań w Azure Stack będzie zbli
 
 Umożliwia realizację następujących scenariuszy:
 
-  * Budowanie własnej infrastruktury kontenerów na Azure VMs
-  * Wspiera uruchamianie środowisk dev/test oraz lab.
-  * Uruchamianie emulatorów w oparciu o Hyper-V
-  * Wsparcie dla własnych obrazów z on-premises
+- Budowanie własnej infrastruktury kontenerów na Azure VMs
+- Wspiera uruchamianie środowisk dev/test oraz lab.
+- Uruchamianie emulatorów w oparciu o Hyper-V
+- Wsparcie dla własnych obrazów z on-premises
 
 #### Instant File Recovery
 
 <a href="https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-azure-vm-backups-is-now-generally-available/" target="_blank" rel="noopener">https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-azure-vm-backups-is-now-generally-available/</a>
 
-  * Umożliwia szybkie odzyskiwanie plików z kopii zapasowej bez potrzeby użycia dodatkowej infrastruktury. Odzyskiwanie może się odbyć bezpośrednio z Azure VM.
-  * Umożliwia montowanie danych bezpośrednio z backupów, bez potrzeby odtwarzania całej maszyny wirtualnej, to z kolei znacząco przyspiesza proces testowania i analizy przy utraconych danych.
+- Umożliwia szybkie odzyskiwanie plików z kopii zapasowej bez potrzeby użycia dodatkowej infrastruktury. Odzyskiwanie może się odbyć bezpośrednio z Azure VM.
+- Umożliwia montowanie danych bezpośrednio z backupów, bez potrzeby odtwarzania całej maszyny wirtualnej, to z kolei znacząco przyspiesza proces testowania i analizy przy utraconych danych.
 
 #### JIT VM Access
 
@@ -140,7 +145,5 @@ Renderowanie na żądanie: Autodesk, 3DS Max, Solidangle Arnold, V-Ray.
 <a href="https://azure.microsoft.com/pl-pl/blog/general-availability-azure-media-redactor/" target="_blank" rel="noopener">https://azure.microsoft.com/pl-pl/blog/general-availability-azure-media-redactor/</a>
 
 Rozmywanie twarzy w Twoim wideo lub nawet w live stream.
-
-&#8212;
 
 Photo credit: [Nicolas Alejandro Street Photography](https://www.flickr.com/photos/nalejandro/16100681368/) via [Visualhunt.com](https://visualhunt.com/re/3ea3a1) /  [CC BY](http://creativecommons.org/licenses/by/2.0/)

@@ -18,14 +18,16 @@ Dzisiaj mija tydzień od kiedy wraz z <a href="https://twitter.com/wasilewskiemi
 Sam pomysł i nazwa kanału powstawały na niezłym spontanie. Dowodem na to jest pierwszy, inauguracyjny odcinek nagrany w Trabancie Emila 🙂
 {: style="text-align: justify;"}
 
-<a href="https://www.youtube.com/channel/UCZxJ619L5pHdiEFOa87sP2g" target="_blank" rel="noopener"><strong>ABŚ - Azure Bez Ściemy</strong></a>
+<iframe width="1060" height="596" src="https://www.youtube.com/embed/_M4JlsgL5_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Jakie tematy z Azure się pojawią?
 
 Każdy z nas porusza się w nieco innych obszarach Azure, dlatego udostępniany materiał będzie również bardzo różnorodny. Po tygodniu wrzuciliśmy trzy odcinki:
-  * O tym, gdzie szukać pomocy, gdy skończy się dokumentacja.
-  * Jak skonfigurować API Management, by działało w sieci wirtualnej i na co przy tym uważać.
-  * Funkcjonalność włączania kopii zapasowej maszyny wirtualnej w Azure podczas jej tworzenia.
+{: style="text-align: justify;"}
+
+- O tym, gdzie szukać pomocy, gdy skończy się dokumentacja.
+- Jak skonfigurować API Management, by działało w sieci wirtualnej i na co przy tym uważać.
+- Funkcjonalność włączania kopii zapasowej maszyny wirtualnej w Azure podczas jej tworzenia.
 {: style="text-align: justify;"}
 
 Raz na jakiś czas będziemy również nagrywać wspólne odcinki w nieco luźnej atmosferze. Pojawią się też pewnie relacje z imprez i konferencji. W sumie to dalej nie mamy jasnego planu, co mnie mocno bawi.
