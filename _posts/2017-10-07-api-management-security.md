@@ -25,8 +25,11 @@ Bazujemy na trzech podstawowych grupach uprawnień. Nie możemy ich modyfikować
 {: style="text-align: justify;"}
 
 - **Guests** &#8211; Osoby nieuwierzytelnione, anonimowi użytkownicy Developer Portalu. Przy odpowiednich ustawieniach mają prawo czytać dokumentację publicznych API naszej firmy.
+{: style="text-align: justify;"}
 - **Developers** &#8211; Osoby które zostały uwierzytelnione do Developer Portalu przez którykolwiek z mechanizmów logowania skonfigurowany w usłudze. Mają wgląd (dokumentacja/ użycie) do wszystkich opublikowanych API i Produktów (patrz integracja z AD poniżej).
+{: style="text-align: justify;"}
 - **Administrators** &#8211; Ludzie mający dostęp do API Management z poziomu portalu Azure. Minimalne wymaganie to Contributor lub **Azure API Management Service Contributor** w RBAC. Administratorzy jako jedyni mają dostęp do Publisher Portalu.
+{: style="text-align: justify;"}
 
 Powyżej pisałem o Administratorach, ale mi osobiście nie udało się nigdy widzieć dwóch osób w tej grupie. Każda osoba z prawami w RBAC po prostu wchodzi na Publisher Portal i jest domyślnie wkładana do jednego konta-worka o nazwie **Administrator**. Zabawne jest to, że tenże wspólny Administrator, jeżeli stworzyliśmy APIM bez zmiany domyślnych ustawień, ma maila twórcy. To z kolei sprawia, że nie da się tego maila użyć do SignUp jako Developer (jakoś zrozumiem) i do logowania do Developer Portalu bo jest to konto typu **Azure**, a nie **Basic**, czy **AAD**. Pozostaje zmienić email Administratora, w tym pomogła mi dopiero grupa produktowa z Redmond, sugerując następujący skrypt:
 {: style="text-align: justify;"}
@@ -50,8 +53,11 @@ W związku z faktem, że API Management aktualnie migruje się z Publisher Porta
 {: style="text-align: justify;"}
 
 - **Reader** tożsamy z **Azure API Management Service Reader** - Uprawnienia do odczytu konfiguracji usługi w portalu Azure, brak dostępu do Publisher Portal.
+{: style="text-align: justify;"}
 - **Contributor/Owner **tożsamy z** Azure API Management Service Contributor** - Pełna administracja usługą w portalu Azure i przez Publisher Portal.
+{: style="text-align: justify;"}
 - **Azure API Management Service Operator** - Uprawnienia do zarządzania usługą, bez możliwości edycji API, produktów i bez dostępu do Publisher Portal.
+{: style="text-align: justify;"}
 - W planach są również dwie nowe role wbudowane, **Azure API Management Service Editor** oraz **Azure API Management Content Manager**. Zostaną one upublicznione po przeniesieniu Publisher Portalu do portalu Azure. Pierwsza umożliwi edycję API, druga zarządzanie Developer Portalem i wraz rolą Operatora stanowić będą całość uprawnień Contributora.
 {: style="text-align: justify;"}
 
