@@ -18,8 +18,8 @@ Praca dla dużych przedsiębiorstw używających chmury wymaga sporej ilości pr
 
 Jakiś czas temu u jednego z moich klientów konfigurowaliśmy ASE (App Service Environment) i AKS (Azure Kubernetes Service) w sieci prywatnej. Kluczowe jest nie tylko zapewnienie poprawnego filtrowania ruchu na wejściu do klastra, dalej pomiędzy usługami, ale też na ruchu wychodzącym. W takiej sytuacji punktem wyjścia mogą być następujące artykuły:
 {: style="text-align: justify;"}
-- Dla ASE https://docs.microsoft.com/en-us/azure/app-service/environment/firewall-integration
-- Dla AKS https://docs.microsoft.com/en-us/azure/aks/limit-egress-traffic
+- Dla ASE [https://docs.microsoft.com/en-us/azure/app-service/environment/firewall-integration(https://docs.microsoft.com/en-us/azure/app-service/environment/firewall-integration)
+- Dla AKS [https://docs.microsoft.com/en-us/azure/aks/limit-egress-traffic](https://docs.microsoft.com/en-us/azure/aks/limit-egress-traffic)
 
 ### Dlaczego warto filtrować ruch wychodzący?
 
