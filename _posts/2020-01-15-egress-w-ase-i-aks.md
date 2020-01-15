@@ -78,7 +78,7 @@ Zdecydowaną gwiazdą w opisie blokowania ruchu wychodzącego jest reguła zwią
 |---|---|---|
 | *.blob.core.windows.net | HTTPS:443 | This address is the backend store for images stored in ACR. |
 
-Obecnie nie mamy innej możliwości niż wypuścić ruch do dowolnego Storage Account w Azure! Aż trudno w to uwierzyć. Microsoft wie o tym ograniczniu ale jak widać nie zostało to dotychczas zmienione. Tutaj przykład wesołych kometarzy...
+Obecnie nie mamy innej możliwości niż wypuścić ruch do dowolnego Storage Account w Azure! Aż trudno w to uwierzyć. Microsoft wie o tym ograniczeniu ale jak widać nie zostało to dotychczas zmienione. Tutaj przykład wesołych komentarzy...
 {: style="text-align: justify;"}
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">AKS egress lockdown is now generally available. 🔒<a href="https://t.co/i9sf9uQtnJ">https://t.co/i9sf9uQtnJ</a></p>&mdash; Gabe Monroy (@gabrtv) <a href="https://twitter.com/gabrtv/status/1174396584663994369?ref_src=twsrc%5Etfw">September 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -88,5 +88,5 @@ Obecnie nie mamy innej możliwości niż wypuścić ruch do dowolnego Storage Ac
 Kontrola ruchu wychodzącego w obecnych czasach jest niezbędna. Dane mogą wyciekać na nietypowych portach jak NTP, czy nawet przez DNS. Warto w tym miejscu stosować metody, które przez wielu mogą być uznane za paranoję. Blokujemy wszystko i stopniowo budujemy swoją whitelistę.
 {: style="text-align: justify;"}
 
-Dobrą metodą jest cykliczne przeglądanie logów zapory z celu odnalezienia powtarzających się wzorców. Z czasem, poza oficjalną dokumentacją, znajdziemy adresy do których próbują sie dostać nasze usługi. Po analizie wywstarczy je odblokować i dodać na listę dozwolonych adresów czy FQDNów.
+Dobrą metodą jest cykliczne przeglądanie logów zapory z celu odnalezienia powtarzających się wzorców. Z czasem, poza oficjalną dokumentacją, znajdziemy adresy do których próbują się dostać nasze usługi. Po analizie wystarczy je odblokować i dodać na listę dozwolonych adresów czy FQDNów.
 {: style="text-align: justify;"}
