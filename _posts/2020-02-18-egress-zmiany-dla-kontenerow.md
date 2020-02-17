@@ -38,15 +38,18 @@ Jeżeli brakuje Ci tych wpisów, koniecznie je dodaj przed usunięciem poprzedni
 
 Według specyfikacji OCI (Open Container Initiative) distribution na operację  **docker image pull** składa się:
 
-* Ściągnięcie manifestu obrazu. Do tego potrzebujemy RESTowego GETa na mcr.microsoft.com. Adres ten jest balansowany pomiędzy regionami Azure wieć może przykrywać kilka instancji API. 
+* Ściągnięcie manifestu obrazu. Do tego potrzebujemy RESTowego GETa na mcr.microsoft.com. Adres ten jest balansowany pomiędzy regionami Azure wieć może przykrywać kilka instancji API.
+{: style="text-align: justify;"}
 * W zależności od potrzeb i stanu lokalnego cache operacja wykonam też kilka GET w celu ściągnięcia brakujących layerów, z których składa się obraz. Do tego potrzebujemy CDNa i adresu *.cdn.mscr.io
+{: style="text-align: justify;"}
 
 Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencontainers/distribution-spec/blob/master/spec.md#pulling-an-image>
 
 ### To nie koniec zmian - przygotuj się na kolejne!
 
 3 marca 2020 *.cdn.mscr.io zostanie zastąpiony przez *.data.mcr.microsoft.com. Zmiana ta ma na celu ujednolicenie adresów używanych przez MCR. Dodatkowo nowy FQDN będzie trzymał się konwencji dla CDNa, to jest [region].data.mcr.microsoft.com.
-{: style="text-align: justify;"} 
+{: style="text-align: justify;"}
+
 Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
 
 | Protokół | Adres FQDN | Uwagi |
@@ -58,7 +61,10 @@ Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
 ### Podsumowanie
 
 * Wykonaj niezbędne zmiany na zaporze w najbliższym czasie. Dzięki temu krokowi odcinamy wyjście do wszystkich kont magazynu Azure, a jednocześnie szykujemy się na zmiany 3 marca.
+{: style="text-align: justify;"}
 * Powyższe zmiany nie dotyczą jedynie AKS. Te same zmiany dotyczą ASE i innych usług kontenerowych w Azure działających za zaporą.
+{: style="text-align: justify;"}
 * Bądź na bieżąco ze zmianami w dokumentacji i dokonuj odpowiednich zmian w swojej konfiguracji.
+{: style="text-align: justify;"}
 
 Photo credit: <a href="https://visualhunt.co/a4/09e67b">Yu. Samoilov</a> on <a href="https://visualhunt.com/re6/084cb9d9">Visual Hunt</a> / <a href="http://creativecommons.org/licenses/by/2.0/"> CC BY</a>
