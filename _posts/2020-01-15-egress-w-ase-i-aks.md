@@ -1,5 +1,5 @@
 ---
-title: Przemyślenia na temat ruchy wychodzącego w ASE i AKS
+title: Przemyślenia na temat ruchu wychodzącego w ASE i AKS
 date: 2020-01-15T22:00:00+01:00
 header:
   teaser: /assets/images/2020/01/clock-time-time-of-time-indicating-pointer-watches.jpg
@@ -11,6 +11,8 @@ tags:
   - Firewall
   - NTP
   - Storage
+  - AKS
+  - Egress
 ---
 
 Praca dla dużych przedsiębiorstw używających chmury wymaga sporej ilości pracy związanej z zapewnieniem wysokich standardów bezpieczeństwa usług. Zwykle w firmach zdefiniowane są restrykcyjne polityki, powiązane z typem czy klasyfikacją danych. Mamy więc do czynienia z danymi osobowymi, medycznymi, finansowymi, czy chociażby takimi, które po ujawnieniu pozbawią firmę przewagi konkurencyjnej. Nie oznacza to bynajmniej, że nie powinniśmy dbać o bezpieczeństwo w mniejszych organizacjach. Te zwykle nie mają wystarczających zasobów, czasu, lub też błędnie uważają, że ryzyko ich nie dotyczy.
