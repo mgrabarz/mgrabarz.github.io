@@ -1,6 +1,6 @@
 ---
 title: Zmiany w regułach filtrowania dla AKS i MCR
-date: 2020-02-18T22:00:00+01:00
+date: 2020-02-18T00:30:00+01:00
 header:
   teaser: /assets/images/2020/02/firewall.jpg
 categories:
