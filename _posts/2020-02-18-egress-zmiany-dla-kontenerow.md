@@ -22,7 +22,7 @@ Według obecnej wersji dokumentacji wystarczy teraz postawić nowego AKSa lub wy
 
 ### Gdzie się podziały reguły dla MCR?
 
-Nasuwa się w tym kontekście dość oczywiste pytanie. Usuwamy wpis dla MCRa (Microsoft Container Registry) ale nic nie dodajemy na jego miejsce. Jakim cudem AKS ma teraz ściągać obrazy?
+Nasuwa się w tym kontekście dość oczywiste pytanie. Usuwamy wpis dla [Microsoft Container Registry](https://github.com/microsoft/containerregistry) ale nic nie dodajemy na jego miejsce. Jakim cudem AKS ma teraz ściągać obrazy?
 {: style="text-align: justify;"}
 Takie wpisy powinny JUŻ znajdywać się w Twoich regułach. Są to odpowiednio:
 
@@ -36,18 +36,18 @@ Jeżeli brakuje Ci tych wpisów, koniecznie je dodaj przed usunięciem poprzedni
 
 ### No dobrze ale dlaczego dwa wpisy?
 
-Według specyfikacji OCI (Open Container Initiative) distribution na operację  **docker image pull** składa się:
+Według specyfikacji [OCI](https://www.opencontainers.org) (Open Container Initiative) distribution na operację  **docker image pull** składa się:
 
-* Ściągnięcie manifestu obrazu. Do tego potrzebujemy RESTowego GETa na mcr.microsoft.com. Adres ten jest balansowany pomiędzy regionami Azure wieć może przykrywać kilka instancji API.
+* Ściągnięcie manifestu obrazu. Do tego potrzebujemy RESTowego GETa na mcr.microsoft.com. Adres ten jest balansowany pomiędzy regionami Azure więc może przykrywać kilka instancji API.
 {: style="text-align: justify;"}
-* W zależności od potrzeb i stanu lokalnego cache operacja wykonam też kilka GET w celu ściągnięcia brakujących layerów, z których składa się obraz. Do tego potrzebujemy CDNa i adresu *.cdn.mscr.io
+* W zależności od potrzeb i stanu lokalnego cache operacja wykona też kilka GET w celu ściągnięcia brakujących layerów, z których składa się obraz. Do tego potrzebujemy CDNa i adresu *.cdn.mscr.io
 {: style="text-align: justify;"}
 
 Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencontainers/distribution-spec/blob/master/spec.md#pulling-an-image>
 
 ### To nie koniec zmian - przygotuj się na kolejne!
 
-3 marca 2020 *.cdn.mscr.io zostanie zastąpiony przez *.data.mcr.microsoft.com. Zmiana ta ma na celu ujednolicenie adresów używanych przez MCR. Dodatkowo nowy FQDN będzie trzymał się konwencji dla CDNa, to jest [region].data.mcr.microsoft.com.
+3 marca 2020 *.cdn.mscr.io zostanie zastąpiony przez *.data.mcr.microsoft.com. Zmiana ta ma na celu ujednolicenie adresów używanych przez MCR. Dodatkowo nowy FQDN będzie trzymał się konwencji dla swojego CDNa, to jest [region].data.mcr.microsoft.com.
 {: style="text-align: justify;"}
 
 Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
