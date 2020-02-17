@@ -1,6 +1,6 @@
 ---
 title: Zmiany w regułach filtrowania dla AKS i MCR
-date: 2020-02-18T00:30:00+01:00
+date: 2020-02-18T01:30:00+01:00
 header:
   teaser: /assets/images/2020/02/firewall.jpg
 categories:
@@ -22,9 +22,10 @@ Według obecnej wersji dokumentacji wystarczy teraz postawić nowego AKSa lub wy
 
 ### Gdzie się podziały reguły dla MCR?
 
-Nasuwa się w tym kontekście dość oczywiste pytanie. Usuwamy dostęp do MCRa (Microsoft Container Registry) ale nic nie dodajemy na jego miejsce. Jakim cudem AKS ma teraz ściągać obrazy?
+Nasuwa się w tym kontekście dość oczywiste pytanie. Usuwamy wpis dla MCRa (Microsoft Container Registry) ale nic nie dodajemy na jego miejsce. Jakim cudem AKS ma teraz ściągać obrazy?
 {: style="text-align: justify;"}
 Takie wpisy powinny JUŻ znajdywać się w Twoich regułach. Są to odpowiednio:
+
 | FQDN | Port | Use |
 |---|---|---|
 | mcr.microsoft.com | HTTPS:443 | This address is required to access images in Microsoft Container Registry (MCR). This registry contains first-party images/charts(for example, moby, etc.) required for the functioning of the cluster during upgrade and scale of the cluster. |
@@ -47,6 +48,7 @@ Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencon
 3 marca 2020 *.cdn.mscr.io zostanie zastąpiony przez *.data.mcr.microsoft.com. Zmiana ta ma na celu ujednolicenie adresów używanych przez MCR. Dodatkowo nowy FQDN będzie trzymał się konwencji dla CDNa, to jest [region].data.mcr.microsoft.com.
 {: style="text-align: justify;"} 
 Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
+
 | Protokół | Adres FQDN | Uwagi |
 |---|---|---|
 | https | mcr.microsoft.com | Wymagane dzisiaj |
