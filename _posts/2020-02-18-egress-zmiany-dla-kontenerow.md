@@ -37,6 +37,7 @@ Jeżeli brakuje Ci tych wpisów, koniecznie je dodaj przed usunięciem poprzedni
 ### No dobrze ale dlaczego dwa wpisy?
 
 Według specyfikacji [OCI](https://www.opencontainers.org) (Open Container Initiative) distribution na operację  **docker image pull** składa się:
+{: style="text-align: justify;"}
 
 * Ściągnięcie manifestu obrazu. Do tego potrzebujemy RESTowego GETa na mcr.microsoft.com. Adres ten jest balansowany pomiędzy regionami Azure więc może przykrywać kilka instancji API.
 {: style="text-align: justify;"}
@@ -44,6 +45,7 @@ Według specyfikacji [OCI](https://www.opencontainers.org) (Open Container Initi
 {: style="text-align: justify;"}
 
 Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencontainers/distribution-spec/blob/master/spec.md#pulling-an-image>
+{: style="text-align: justify;"}
 
 ### To nie koniec zmian - przygotuj się na kolejne!
 
@@ -51,7 +53,7 @@ Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencon
 {: style="text-align: justify;"}
 
 Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
-
+{: style="text-align: justify;"}
 | Protokół | Adres FQDN | Uwagi |
 |---|---|---|
 | https | mcr.microsoft.com | Wymagane dzisiaj |
@@ -60,11 +62,11 @@ Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
 
 ### Podsumowanie
 
-* Wykonaj niezbędne zmiany na zaporze w najbliższym czasie. Dzięki temu krokowi odcinamy wyjście do wszystkich kont magazynu Azure, a jednocześnie szykujemy się na zmiany 3 marca.
+* Wykonaj aktualizację reguł na zaporze w najbliższym czasie. Dzięki temu krokowi odcinamy wyjście do wszystkich kont magazynu Azure, a jednocześnie szykujemy się na zmiany 3 marca.
 {: style="text-align: justify;"}
-* Powyższe zmiany nie dotyczą jedynie AKS. Te same zmiany dotyczą ASE i innych usług kontenerowych w Azure działających za zaporą.
+* Powyższe wymagania nie dotyczą jedynie AKS. Te same zmiany wpłyną na funkcjonowanie ASE i innych usług kontenerowych w Azure działających za zaporą.
 {: style="text-align: justify;"}
-* Bądź na bieżąco ze zmianami w dokumentacji i dokonuj odpowiednich zmian w swojej konfiguracji.
+* Bądź na bieżąco ze zmianami w dokumentacji i dokonuj odpowiednich korekt w swojej konfiguracji.
 {: style="text-align: justify;"}
 
 Photo credit: <a href="https://visualhunt.co/a4/09e67b">Yu. Samoilov</a> on <a href="https://visualhunt.com/re6/084cb9d9">Visual Hunt</a> / <a href="http://creativecommons.org/licenses/by/2.0/"> CC BY</a>
