@@ -54,6 +54,7 @@ Po więcej szczegółów odsyłam Cię do źródła: <https://github.com/opencon
 
 Poniższa tabela przedstawia ostateczną listę potrzebnych wpisów:
 {: style="text-align: justify;"}
+
 | Protokół | Adres FQDN | Uwagi |
 |---|---|---|
 | https | mcr.microsoft.com | Wymagane dzisiaj |
