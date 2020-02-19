@@ -63,7 +63,7 @@ plugins:
 author:
   name: "Marek Grabarz"
   avatar: "/assets/images/profil.jpg"
-  bio: "Pasjonat technologii i rozwiązań chmurowych, Technology Advisor i trener w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer."
+  bio: "Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer."
   location: "Warszawa, PL"
   links:
     - label: "LinkedIn"
