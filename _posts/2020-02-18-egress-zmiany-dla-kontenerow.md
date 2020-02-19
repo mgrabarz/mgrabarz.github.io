@@ -14,7 +14,7 @@ tags:
   - MCR
 ---
 
-[Miesiąc temu](2020-01-15-egress-w-ase-i-aks.md) narzekałem na potrzebę dodawania **.blob.core.windows.net** do reguł ruchu wychodzącego w AKS. Okazuje się, że przed kilkoma dniami doczekaliśmy się oficjalnie poprawek.
+[Miesiąc temu]([2020-01-15-egress-w-ase-i-aks.md](https://grabarz.pl/security/egress-w-ase-i-aks/)) narzekałem na potrzebę dodawania **.blob.core.windows.net** do reguł ruchu wychodzącego w AKS. Okazuje się, że przed kilkoma dniami doczekaliśmy się oficjalnie poprawek.
 {: style="text-align: justify;"}
 
 Według obecnej wersji dokumentacji wystarczy teraz postawić nowego AKSa lub wykonać aktualizację klastra (np przy pomocy **az aks upgrade**) i zapomnieć o wystawianiu się na cały storage, a przy okazji na **aksrepos.azurecr.io**. Oba wpisy możemy spokojnie usunąć z reguł zapory, ale zanim to zrobimy musimy wykonać kilka kroków sprawdzających.
