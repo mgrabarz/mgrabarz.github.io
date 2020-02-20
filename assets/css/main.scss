@@ -23,6 +23,7 @@
     }
     .newsletter-form {
         text-align: center;
+        background: #444;
     }
     .newsletter-title {
         font-size: 1.5em;
@@ -47,7 +48,8 @@
     .newsletter-email {
         font-family: Sans-Serif;
         text-align: center;
-        font-size: .9em;
+        font-size: .8em;
+        width: 90%;
     }
     .newsletter-submit {
         font-size: .6em;
@@ -67,6 +69,6 @@
             font-size: 1.5em;
         }
         .newsletter-submit {
-            font-size: .7em;
+            font-size: .5em;
         }
     }
