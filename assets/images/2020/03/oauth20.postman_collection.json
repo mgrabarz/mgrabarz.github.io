@@ -1,0 +1,688 @@
+{
+	"info": {
+		"_postman_id": "ef958f27-7fc7-4dd2-bb0d-9d0cc797ebd7",
+		"name": "oauth20",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Implicit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://login.microsoftonline.com/f5875480-a937-42fe-b4e5-ce1381684b9d/oauth2/v2.0/authorize?\nclient_id=e9828e17-84d7-4327-9141-c1b4620d85de\n&response_type=id_token+token\n&redirect_uri=https://jwt.ms\n&scope=openid%20https%3A%2F%2Fgraph.microsoft.com%2Fmail.read\n&response_mode=fragment\n&state=12345\n&nonce=678910",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"f5875480-a937-42fe-b4e5-ce1381684b9d",
+						"oauth2",
+						"v2.0",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "\nclient_id",
+							"value": "e9828e17-84d7-4327-9141-c1b4620d85de\n"
+						},
+						{
+							"key": "response_type",
+							"value": "id_token+token\n"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms\n"
+						},
+						{
+							"key": "scope",
+							"value": "openid%20https%3A%2F%2Fgraph.microsoft.com%2Fmail.read\n"
+						},
+						{
+							"key": "response_mode",
+							"value": "fragment\n"
+						},
+						{
+							"key": "state",
+							"value": "12345\n"
+						},
+						{
+							"key": "nonce",
+							"value": "678910"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ClientCredentials",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "{{cc_secret}}",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "https://graph.microsoft.com/.default",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "8d740a8a-a2fa-439c-8bf4-59390e920e16",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ResourceOwnerPassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "user@eternalsolutions.onmicrosoft.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "29365d35-f4a4-48fb-b55d-91efc60059ea",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "User.Read.All",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Authorize",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/authorize?\nclient_id=6315b469-5675-49bb-9f71-547dc1c37368\n&response_type=code\n&redirect_uri=https://jwt.ms\n&response_mode=query\n&state=12345&resource=https://graph.windows.net",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "\nclient_id",
+							"value": "6315b469-5675-49bb-9f71-547dc1c37368\n"
+						},
+						{
+							"key": "response_type",
+							"value": "code\n"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms\n"
+						},
+						{
+							"key": "response_mode",
+							"value": "query\n"
+						},
+						{
+							"key": "state",
+							"value": "12345"
+						},
+						{
+							"key": "resource",
+							"value": "https://graph.windows.net"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "...",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "6315b469-5675-49bb-9f71-547dc1c37368",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "{{acg_secret}}",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserRead",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ..."
+					}
+				],
+				"url": {
+					"raw": "https://graph.windows.net/eternalsolutions.onmicrosoft.com/users/user@eternalsolutions.onmicrosoft.com?api-version=1.6",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"windows",
+						"net"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"users",
+						"user@eternalsolutions.onmicrosoft.com"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "1.6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Authorize_PKCE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/authorize?\nclient_id=c95ca5bb-055c-4eec-9f33-80ea0d2b2f07\n&response_type=code\n&redirect_uri=https://jwt.ms\n&response_mode=query\n&state=12345&resource=https://graph.windows.net&code_challenge_method=plain&code_challenge=1234567890123456789012345678901234567890123",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "\nclient_id",
+							"value": "c95ca5bb-055c-4eec-9f33-80ea0d2b2f07\n"
+						},
+						{
+							"key": "response_type",
+							"value": "code\n"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms\n"
+						},
+						{
+							"key": "response_mode",
+							"value": "query\n"
+						},
+						{
+							"key": "state",
+							"value": "12345"
+						},
+						{
+							"key": "resource",
+							"value": "https://graph.windows.net"
+						},
+						{
+							"key": "code_challenge_method",
+							"value": "plain"
+						},
+						{
+							"key": "code_challenge",
+							"value": "1234567890123456789012345678901234567890123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Token_PKCE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "c95ca5bb-055c-4eec-9f33-80ea0d2b2f07",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms",
+							"type": "text"
+						},
+						{
+							"key": "resource",
+							"value": "https://graph.microsoft.net",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "code_verifier",
+							"value": "1234567890123456789012345678901234567890123",
+							"description": "BASE64URL-ENCODE(SHA256(ASCII(code_verifier)))",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Authorize_OnBehalf",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/authorize?\nclient_id=6315b469-5675-49bb-9f71-547dc1c37368\n&response_type=code\n&redirect_uri=https://jwt.ms\n&response_mode=query\n&state=12345&resource=https://eternalsolutions.onmicrosoft.com/facbe067-a2f0-41b3-bb0c-58eeff61b04c",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "\nclient_id",
+							"value": "6315b469-5675-49bb-9f71-547dc1c37368\n"
+						},
+						{
+							"key": "response_type",
+							"value": "code\n"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms\n"
+						},
+						{
+							"key": "response_mode",
+							"value": "query\n"
+						},
+						{
+							"key": "state",
+							"value": "12345"
+						},
+						{
+							"key": "resource",
+							"value": "https://eternalsolutions.onmicrosoft.com/facbe067-a2f0-41b3-bb0c-58eeff61b04c"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Token_OnBehalf",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "6315b469-5675-49bb-9f71-547dc1c37368",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://jwt.ms",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthorizationCodeGrant_Token_OnBehalf2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "urn:ietf:params:oauth:grant-type:jwt-bearer",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "643eec18-54fc-4c83-b416-be32e29324d1",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "requested_token_use",
+							"value": "on_behalf_of",
+							"type": "text"
+						},
+						{
+							"key": "assertion ",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "resource",
+							"value": "https://graph.windows.net/",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/eternalsolutions.onmicrosoft.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserInfo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://graph.windows.net/eternalsolutions.onmicrosoft.com/me?api-version=1.6",
+					"protocol": "https",
+					"host": [
+						"graph",
+						"windows",
+						"net"
+					],
+					"path": [
+						"eternalsolutions.onmicrosoft.com",
+						"me"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "1.6"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "499f1437-012a-445a-a87f-88e5e2b2f39d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "8faa6057-bcf1-444d-b0b5-db0f368f4a87",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "aa825246-fbad-4e0b-af25-73ced37d9d3a",
+			"key": "password",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "10abcd5d-f369-4d9a-9805-f2129c4c34dc",
+			"key": "acg_secret",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "dcb5badd-21cf-4d76-b242-5f60820ed009",
+			"key": "cc_secret",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "f9e887ad-910c-45b1-85eb-2ee848215c7a",
+			"key": "acg_onbehalf_secret",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
