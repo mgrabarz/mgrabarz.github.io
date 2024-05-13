@@ -15,7 +15,7 @@ tags:
 
 🔶 Jak poprawnie skonfigurować Azure OpenAI podczas wdrożenia?
 
-W poprzednich dwóch wpisach omówiłem ustawienia sieciowe: https://lnkd.in/dRi8NCTh oraz ochronę danych: https://lnkd.in/dafZS6_w.
+W poprzednich dwóch wpisach omówiłem [ustawienia sieciowe](https://lnkd.in/dRi8NCTh) oraz [ochronę danych](https://lnkd.in/dafZS6_w).
 
 Pozostało nam kilka istotnych elementów z pozostałych kategorii, o których należy pamiętać:
 
@@ -45,8 +45,8 @@ Skonfiguruj zbieranie logów poprzez Diagnostic Settings usługi i wysyłaj je d
 Jakie logi wysyłać – zarówno logi audytowe, jak też logi request response.
 Niemal zapomniałem, do tego też przyda się polityka, by nic nie uciekło, kiedy zaczniemy te logi przeszukiwać.
 
-PS. Zapraszam do obserwowania mojego profilu 👨‍💻 https://lnkd.in/dDgccHWR. Już niedługo opublikuję serię wpisów na temat zarządzania API oraz jak do tego podejść w kontekście usług AI z Microsoftu.
+PS. Zapraszam do obserwowania mojego profilu [👨‍💻](https://lnkd.in/dDgccHWR). Już niedługo opublikuję serię wpisów na temat zarządzania API oraz jak do tego podejść w kontekście usług AI z Microsoftu.
 
 [Protopia](https://protopia.tech), jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
 
-Oryginalnie opublikowane na LinkedIn: https://www.linkedin.com/posts/grabarz_azure-activity-7194250467713966080-oJpZ
+Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-activity-7194250467713966080-oJpZ)

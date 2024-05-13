@@ -36,14 +36,14 @@ Podobnie jak w punkcie powyżej, funkcja jest domyślnie włączona, a wszystkie
 🔶 DP-5: Szyfrowanie własnymi kluczami (CMK)
 No właśnie! Co z regulacjami, takimi jak na przykład regulacje KNF? Niestety, tutaj musimy się odrobinę postarać i dostarczyć własny klucz szyfrujący (czyli Customer Managed Key). Jak to zrobić? Wymagana jest usługa KeyVault, którą trzeba odpowiednio skonfigurować. Sam klucz podlega automatycznej rotacji, zgodnie z wymogami Twojej firmy.
 
-PS. Jeśli chcesz wiedzieć, jakie inne funkcje możesz włączyć lub wyłączyć, zapraszam do obserwowania 👨‍💻 https://lnkd.in/dDgccHWR i zapoznania się z kolejnym postem.
+PS. Jeśli chcesz wiedzieć, jakie inne funkcje możesz włączyć lub wyłączyć, zapraszam do obserwowania [👨‍💻](https://lnkd.in/dDgccHWR) i zapoznania się z kolejnym postem.
 
 Wiele ciekawych informacji znajdziesz też na profilach moich kolegów z zespołu PROTOPIA.
 
-👨‍💻Profil Szymona: https://lnkd.in/dtB_mtXT
+[👨‍💻Profil Szymona](https://lnkd.in/dtB_mtXT)
 
-👨‍💻Profil Łukasza: https://lnkd.in/djKGAV9f
+[👨‍💻Profil Łukasza](https://lnkd.in/djKGAV9f)
 
 [Protopia](https://protopia.tech), jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
 
-Oryginalnie opublikowane na LinkedIn: https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7190994157744648193-TwYh
+Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7190994157744648193-TwYh)
