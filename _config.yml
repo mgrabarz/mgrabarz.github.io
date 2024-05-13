@@ -18,13 +18,13 @@ email: m.grabarz@wp.pl
 description: >-
   Pasjonat technologii i rozwiązań chmurowych, Microsoft Azure MVP oraz Microsoft Certified Trainer. 
   Na codzień doradzam dużym firmom w zakresie rozwiązań technologicznych, buduję strategię IT oraz szkolę zaspoły klientów i ich partnerów.
-  
+
 twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
 url: "https://grabarz.pl/"
-locale: "en"
+locale: "en-us"
 
 # Build settings
 markdown: kramdown
@@ -33,23 +33,45 @@ remote_theme: mmistakes/minimal-mistakes@4.26.1
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: PL
+timezone: Europe/Warsaw
 breadcrumbs: true
 
+# Reading Files
 include:
+  - .htaccess
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Plugins (previously gems:)
 plugins:
@@ -122,14 +144,19 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-  
+
 comments:
   provider: "disqus"
   disqus:
     shortname: "grabarz"
- 
+
 analytics:
   provider: "google"
   google:
     tracking_id: "UA-155099286-1"
     anonymize_ip: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
