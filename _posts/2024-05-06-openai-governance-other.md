@@ -1,5 +1,5 @@
 ---
-title: OpenAI - Konfiguracja bezpieczeństwa #3
+title: OpenAI - Konfiguracja bezpieczeństwa - Pozostałe
 date: 2024-05-06T00:00:00+01:00
 header:
   teaser: /assets/images/2024/04/openai.webp
