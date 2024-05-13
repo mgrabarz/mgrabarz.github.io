@@ -13,9 +13,9 @@ tags:
   - Governance
 ---
 
-Masz wątpliwości, czy wdrożyć hashtag#Azure hashtag#OpenAI z obawy przed dostępem Microsoftu do Twoich danych?
+Masz wątpliwości, czy wdrożyć Azure OpenAI z obawy przed dostępem Microsoftu do Twoich danych?
 
-W hashtag#Protopia często pracujemy dla takich branż jak bankowa czy ubezpieczeniowa. Częścią naszej pracy jest przełamywanie obaw dotyczących tego zagadnienia.
+W Protopia często pracujemy dla takich branż jak bankowa czy ubezpieczeniowa. Częścią naszej pracy jest przełamywanie obaw dotyczących tego zagadnienia.
 
 Niewiele osób wie, że odpowiednie wdrożenie OpenAI może zapewnić, że dane nigdy nie będą w żaden sposób używane przez Microsoft. Można się przed tym skutecznie i w pełni zabezpieczyć. Według dokumentacji, sprawa wygląda dość jasno, jednak 𝗻𝗶𝗲𝘀𝘁𝗲𝘁𝘆 musimy zadbać o kilka dodatkowych szczegółów.
 
@@ -36,6 +36,8 @@ I właśnie nie, content filtering nadal będzie działał. To znaczy, zgodnoś�
 
 Jakie są Twoje główne obawy związane z wdrażaniem AI w Twojej branży?
 
-hashtag#Protopia jako Microsoft Advanced Specialisation Partner, pracujący dla największych firm z branży bankowej i ubezpieczeniowej, pomaga klientom zagwarantować bezpieczne wdrożenie usług AI.
+[Protopia](https://protopia.tech) jako Microsoft Advanced Specialisation Partner, pracujący dla największych firm z branży bankowej i ubezpieczeniowej, pomaga klientom zagwarantować bezpieczne wdrożenie usług AI.
 
 Jeśli chcesz wiedzieć, jakie inne funkcje możesz włączyć lub wyłączyć, zapraszam do obserwowania mojego profilu: https://lnkd.in/gHjt9eSb
+
+Oryginalnie opublikowany na LinkedIn: https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7185901126439874561-vTQU

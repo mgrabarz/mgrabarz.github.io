@@ -1,6 +1,6 @@
 ---
 title: Ekonomia API
-date: 2024-05-13T23:00:00+01:00
+date: 2024-05-13T00:00:00+01:00
 header:
   teaser: /assets/images/2024/05/apieconomy.png
 categories:
@@ -54,4 +54,4 @@ API to nie tylko słowo ze słownika programistów, ale też temat spotkań na p
 
 [Protopia](https://protopia.tech) jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
 
-Orginalnie opublikowane na LinkedIn: https://www.linkedin.com/posts/grabarz_api-activity-7195677930243428354-Lyd7
+Oryginalnie opublikowane na LinkedIn: https://www.linkedin.com/posts/grabarz_api-activity-7195677930243428354-Lyd7
