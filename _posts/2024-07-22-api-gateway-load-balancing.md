@@ -1,6 +1,6 @@
 ---
 title: AI Gateway: Część 1, Load Balancing
-date: 2024-05-13T00:00:00+01:00
+date: 2024-07-22T00:00:00+01:00
 header:
   teaser: /assets/images/2024/07/backend-pool-load-balancing.gif
 categories:
@@ -10,6 +10,7 @@ tags:
   - OpenAI
   - APIM
   - Governance
+  - AI
 ---
 
 Czy wiesz, że [APIM](https://azure.microsoft.com/en-us/products/api-management/) (Azure API Management) może być Twoim sprzymierzeńcem w zarządzaniu **#OpenAI** w firmie?
@@ -148,4 +149,4 @@ W opisanych powyżej scenariuszach APIM pozwala nam wysyłać ruch na kilka inst
 
 Zapraszam Cię do [śledzenia mojego profilu LinkedIn](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=grabarz&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B5bfxv3NiTsmQvQGhJ1SbkA%3D%3D) i odkrywania, jak APIM może stać się Twoim sprzymierzeńcem w świecie AI. Do zobaczenia w następnych artykułach!
 
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7221067841163186178/)
+Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/pulse/ai-gateway-cz%C4%99%C5%9B%C4%87-1-load-balancing-marek-grabarz-vc4pf/)
