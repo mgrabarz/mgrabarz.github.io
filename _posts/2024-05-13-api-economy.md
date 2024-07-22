@@ -52,6 +52,4 @@ Dlaczego warto zainteresować się API?
 
 API to nie tylko słowo ze słownika programistów, ale też temat spotkań na poziomie biznesowym. Jest to zdecydowanie temat z potencjałem na dłuższą rozmowę, dlatego zapraszam do obserwowania: [👨‍💻](https://lnkd.in/dDgccHWR). W kolejnych postach opowiem więcej o tym, co jest istotne podczas budowania strategii ekonomii API.
 
-[Protopia](https://protopia.tech) jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
-
 Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_api-activity-7195677930243428354-Lyd7)

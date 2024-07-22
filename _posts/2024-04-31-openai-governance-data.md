@@ -44,6 +44,4 @@ Wiele ciekawych informacji znajdziesz też na profilach moich kolegów z zespoł
 
 [👨‍💻Profil Łukasza](https://lnkd.in/djKGAV9f)
 
-[Protopia](https://protopia.tech), jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
-
 Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7190994157744648193-TwYh)

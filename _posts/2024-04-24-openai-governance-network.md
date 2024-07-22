@@ -40,6 +40,4 @@ Niestety z racji problemów z np Terraform nie należy wdrażać powyższej poli
 
 Aby dowiedzieć się więcej o funkcjach, które można włączyć lub wyłączyć, zachęcam do zapoznania się z kolejnym postem i obserwowania mojego [profilu](https://lnkd.in/gHjt9eSb)
 
-[Protopia](https://protopia.tech), jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
-
 Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-security-activity-7188443473908252672-4NxR)

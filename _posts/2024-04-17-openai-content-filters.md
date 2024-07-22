@@ -36,8 +36,6 @@ I właśnie nie, content filtering nadal będzie działał. To znaczy, zgodnoś�
 
 Jakie są Twoje główne obawy związane z wdrażaniem AI w Twojej branży?
 
-[Protopia](https://protopia.tech) jako Microsoft Advanced Specialisation Partner, pracujący dla największych firm z branży bankowej i ubezpieczeniowej, pomaga klientom zagwarantować bezpieczne wdrożenie usług AI.
-
 Jeśli chcesz wiedzieć, jakie inne funkcje możesz włączyć lub wyłączyć, zapraszam do obserwowania [mojego profilu](https://lnkd.in/gHjt9eSb)
 
 Oryginalnie opublikowany na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7185901126439874561-vTQU)

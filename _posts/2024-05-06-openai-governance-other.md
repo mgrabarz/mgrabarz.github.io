@@ -47,6 +47,4 @@ Niemal zapomniałem, do tego też przyda się polityka, by nic nie uciekło, kie
 
 PS. Zapraszam do obserwowania mojego profilu [👨‍💻](https://lnkd.in/dDgccHWR). Już niedługo opublikuję serię wpisów na temat zarządzania API oraz jak do tego podejść w kontekście usług AI z Microsoftu.
 
-[Protopia](https://protopia.tech), jako Microsoft Advanced Specialization Partner, wspierający największe firmy z sektora bankowego i ubezpieczeniowego, pomaga klientom zapewnić bezpieczne wdrożenie usług AI.
-
 Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-activity-7194250467713966080-oJpZ)
