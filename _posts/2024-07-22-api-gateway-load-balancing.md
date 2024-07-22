@@ -40,7 +40,7 @@ W pierwszej części serii artykułów skoncentruję się na balansowaniu ruchu 
 
 Pewnie nasuwa Ci się pytanie po co wdrażać kilka instancji OpenAI? Odpowiedzi może być wiele, w zależności od architektury, oto kilka powodów:
 
-- Microsoft wprowadził wiele limitów dotyczących liczby zapytań (RTM), tokenów (TPM), przepustowości. Limity mogą być liczone per instancję OpenAI, albo sumarycznie na wszystkie instancje w ramach pojedynczej subskrypcji/regionu. Rozwiązaniem może być kilka OpenAI wdrożonych tak, by te ograniczenia ominąć.
+- Microsoft wprowadził wiele [limitów](https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits) dotyczących liczby zapytań (RTM), tokenów (TPM), przepustowości. Limity mogą być liczone per instancję OpenAI, albo sumarycznie na wszystkie instancje w ramach pojedynczej subskrypcji/regionu. Rozwiązaniem może być kilka OpenAI wdrożonych tak, by te ograniczenia ominąć.
 - W przypadku gdy zdecydujesz się na OpenAI w modelu PTU (provisioned throughput units) możesz w pewnym momencie przekroczyć założoną przepustowość. Wtedy z pomocą może przyjść druga instancja w modelu PAYG, by obsłużyć nadmiarową liczbę zapytań.
 - Żadna usługa nie jest w stanie zagwarantować 100% dostępności. W przypadku Azure OpenAI Microsoft deklaruje w SLA trzy dziewiątki. W niektórych scenariuszach można wdrożyć APIMa w trybie multi-region wraz z dedykowanymi instancjami OpenAI. Dla pełnej jasności - APIM w jednym regionie ma SLA 99.95%, a w kilku 99.99%.
 - Możemy wreszcie wysyłać ruch do Mocka - to w razie kompletnej katastrofy.
@@ -51,7 +51,7 @@ W podejściu pierwszym użyjemy funkcjonalności [Backendu](https://learn.micros
 
 Backend możemy oczywiście wyklikać poprzez Portal Azure, ale ja preferuję automatyzację. Poniżej znajdziesz fragment kodu w bicep, który w pętli tworzy kilka backendów dla OpenAI w APIM (w zależności od liczby podanych instancji OpenAI).
 
-```bicep
+```yaml
 resource backendOpenAI 'Microsoft.ApiManagement/service/backends@2023-05-01-preview' = [for (config, i) in openAIConfig: if(length(openAIConfig) > 0) {
   name: config.name
   parent: apimService
