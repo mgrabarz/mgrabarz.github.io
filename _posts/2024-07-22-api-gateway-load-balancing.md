@@ -51,7 +51,7 @@ W podejściu pierwszym użyjemy funkcjonalności [Backendu](https://learn.micros
 
 Backend możemy oczywiście wyklikać poprzez Portal Azure, ale ja preferuję automatyzację. Poniżej znajdziesz fragment kodu w bicep, który w pętli tworzy kilka backendów dla OpenAI w APIM (w zależności od liczby podanych instancji OpenAI).
 
-```yaml
+```properties
 resource backendOpenAI 'Microsoft.ApiManagement/service/backends@2023-05-01-preview' = [for (config, i) in openAIConfig: if(length(openAIConfig) > 0) {
   name: config.name
   parent: apimService
