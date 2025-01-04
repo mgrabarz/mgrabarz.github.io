@@ -1,5 +1,5 @@
 ---
-title: AI Gateway - Część 1, Load Balancing
+title: AI Gateway - Część 2, Kontrola dostępu
 date: 2024-07-22T00:00:01+01:00
 header:
   teaser: /assets/images/2024/07/access-controlling.gif
@@ -130,4 +130,4 @@ Najważniejsze rzeczy do zapamiętania:
 - Podczas walidacji możemy puszczać żądania dalej (pass-thru), lub podstawiać token APIMa.
 - Bardziej zaawansowane scenariusze mogą skutkować potrzebą tworzenia skomplikowanych polityk w APIM.
 
-Za tydzień opublikuje kolejny artykuł o tym, jak kontrolować wykorzystanie tokenów OpenAI przy pomocy APIMa. Zapraszam do [śledzenia](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS) mojego profilu, by go nie przegapić.
+Za tydzień opublikuje kolejny artykuł o tym, jak kontrolować wykorzystanie tokenów OpenAI przy pomocy APIMa. Zapraszam do [śledzenia](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=grabarz) mojego profilu, by go nie przegapić.

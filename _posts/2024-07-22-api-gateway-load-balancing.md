@@ -147,4 +147,4 @@ Rozwiązanie zapewnia wszechstronne podejście do problemów dostępności, kod�
 
 W opisanych powyżej scenariuszach APIM pozwala nam wysyłać ruch na kilka instancji OpenAI w celu zwiększenia dostępności rozwiązania, ominięcia nałożonych przez Microsoft limitów, lub selektywnego użycia PTU i PAYG.
 
-Zapraszam Cię do [śledzenia mojego profilu LinkedIn](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=grabarz&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B5bfxv3NiTsmQvQGhJ1SbkA%3D%3D) i odkrywania, jak APIM może stać się Twoim sprzymierzeńcem w świecie AI. Do zobaczenia w następnych artykułach!
+Zapraszam Cię do [śledzenia mojego profilu LinkedIn](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=grabarz) i odkrywania, jak APIM może stać się Twoim sprzymierzeńcem w świecie AI. Do zobaczenia w następnych artykułach!
