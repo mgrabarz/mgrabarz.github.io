@@ -1,6 +1,6 @@
 ---
 title: AI Gateway - Część 1, Kontrola Dostępu
-date: 2024-07-29T00:00:01+01:00
+date: 2024-07-22T00:00:01+01:00
 header:
   teaser: /assets/images/2024/07/backend-pool-load-balancing.gif
 categories:

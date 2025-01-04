@@ -1,6 +1,6 @@
 ---
 title: AI Gateway - Część 2, Kontrola dostępu
-date: 2024-07-22T00:00:01+01:00
+date: 2024-07-29T00:00:01+01:00
 header:
   teaser: /assets/images/2024/07/access-controlling.gif
 categories:

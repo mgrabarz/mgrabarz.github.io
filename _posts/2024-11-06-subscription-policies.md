@@ -44,7 +44,7 @@ Jestem w stanie wymyślić jeszcze kilka innych paskudnych scenariuszy, jak wje�
 
 Dokumentacja o tym milczy, przecież nikt tego nie ustawia... Jest na szczęście dokumentacja Azure Resource Management - uwaga, API jest już 3 lata w GA.
 
-```bicep
+```properties
 resource subscriptionPolicy 'Microsoft.Subscription/policies@2021-10-01' = {
   name: 'default'
   scope: tenant()

@@ -31,7 +31,7 @@ Domyślnym mechanizmem zbierania logów jest ich wysyłka do konta Log Analytics
 
 Z kolei na poziomie konfiguracji poszczególnych API możemy zdecydować co w tych logach zostanie wrzucone poza domyślnymi elementami (data, kod, api, metoda). Te rozszerzone opcje pozwalają nam zalogować nagłówki, treść żądania i odpowiedzi oraz zdecydować o poziomie samplingu, czyli procentowej ilości w pełni zalogowanych wywołań API.
 
-Całościowo schema takich logów wygląda następująco: [Reference - Azure API Management gateway log | Microsoft Learn](https://learn.microsoft.com/en-us/azure/api-management/gateway-log-schema-reference)
+Całościowo schema takich logów wygląda następująco: [Reference - Azure API Management gateway log](https://learn.microsoft.com/en-us/azure/api-management/gateway-log-schema-reference)
 
 W obszarze zbierania logów dla wywołań OpenAI dostajemy możliwość zbierania historii wywołań, czasów, adresów IP, nagłówków czy nawet zawartości promptów i odpowiedzi. Jest jednak mały haczyk...
 
