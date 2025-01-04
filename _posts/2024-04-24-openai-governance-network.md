@@ -39,5 +39,3 @@ W niektórych organizacjach, w których poszczególni użytkownicy mają szeroki
 Niestety z racji problemów z np Terraform nie należy wdrażać powyższej polityki w trybie Deny (zresztą wymagałoby to jej przepisania).
 
 Aby dowiedzieć się więcej o funkcjach, które można włączyć lub wyłączyć, zachęcam do zapoznania się z kolejnym postem i obserwowania mojego [profilu](https://lnkd.in/gHjt9eSb)
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-security-activity-7188443473908252672-4NxR)

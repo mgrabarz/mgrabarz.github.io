@@ -1,6 +1,6 @@
 ---
-title: AI Gateway - Część 1, Load Balancing
-date: 2024-07-22T00:00:01+01:00
+title: AI Gateway - Część 1, Kontrola Dostępu
+date: 2024-07-29T00:00:01+01:00
 header:
   teaser: /assets/images/2024/07/backend-pool-load-balancing.gif
 categories:
@@ -148,5 +148,3 @@ Rozwiązanie zapewnia wszechstronne podejście do problemów dostępności, kod�
 W opisanych powyżej scenariuszach APIM pozwala nam wysyłać ruch na kilka instancji OpenAI w celu zwiększenia dostępności rozwiązania, ominięcia nałożonych przez Microsoft limitów, lub selektywnego użycia PTU i PAYG.
 
 Zapraszam Cię do [śledzenia mojego profilu LinkedIn](https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=grabarz&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B5bfxv3NiTsmQvQGhJ1SbkA%3D%3D) i odkrywania, jak APIM może stać się Twoim sprzymierzeńcem w świecie AI. Do zobaczenia w następnych artykułach!
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/pulse/ai-gateway-cz%C4%99%C5%9B%C4%87-1-load-balancing-marek-grabarz-vc4pf/)

@@ -40,5 +40,3 @@ W kolejnych wpisach szczegółowo omówię kilka kluczowych scenariuszy wykorzys
 - **Zarządzanie kosztami i monitorowanie użycia** - jak efektywnie kontrolować wysyłane zapytania, logować je i zapewnić odpowiedzialność za koszty.
 
 Zapraszam Cię do [śledzenia](https://lnkd.in/dDgccHWR) mojergo LinkedIn i odkrywania, jak APIM może stać się Twoim sprzymierzeńcem w świecie AI. Do zobaczenia w następnych postach!
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7198592977676439552/)

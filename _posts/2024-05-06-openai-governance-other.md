@@ -46,5 +46,3 @@ Jakie logi wysyłać – zarówno logi audytowe, jak też logi request response.
 Niemal zapomniałem, do tego też przyda się polityka, by nic nie uciekło, kiedy zaczniemy te logi przeszukiwać.
 
 PS. Zapraszam do obserwowania mojego profilu [👨‍💻](https://lnkd.in/dDgccHWR). Już niedługo opublikuję serię wpisów na temat zarządzania API oraz jak do tego podejść w kontekście usług AI z Microsoftu.
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-activity-7194250467713966080-oJpZ)

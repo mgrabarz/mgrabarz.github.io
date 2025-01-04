@@ -43,5 +43,3 @@ Wiele ciekawych informacji znajdziesz też na profilach moich kolegów z zespoł
 [👨‍💻Profil Szymona](https://lnkd.in/dtB_mtXT)
 
 [👨‍💻Profil Łukasza](https://lnkd.in/djKGAV9f)
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_azure-openai-protopia-activity-7190994157744648193-TwYh)

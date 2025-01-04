@@ -51,5 +51,3 @@ API może też być wykorzystywane wewnętrznie do komunikacji między działami
 Dlaczego warto zainteresować się API?
 
 API to nie tylko słowo ze słownika programistów, ale też temat spotkań na poziomie biznesowym. Jest to zdecydowanie temat z potencjałem na dłuższą rozmowę, dlatego zapraszam do obserwowania: [👨‍💻](https://lnkd.in/dDgccHWR). W kolejnych postach opowiem więcej o tym, co jest istotne podczas budowania strategii ekonomii API.
-
-Oryginalnie opublikowane na [LinkedIn](https://www.linkedin.com/posts/grabarz_api-activity-7195677930243428354-Lyd7)
