@@ -90,7 +90,7 @@ author:
   location: "Warszawa, PL"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
@@ -105,7 +105,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
