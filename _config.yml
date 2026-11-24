@@ -24,7 +24,7 @@ twitter_username: marekgrabarz
 github_username: mgrabarz
 minimal_mistakes_skin: air
 search: true
-url: "https://grabarz.pl/"
+url: "https://grabarz.pl"
 locale: "en-us"
 
 # Build settings
@@ -90,7 +90,7 @@ author:
   location: "Warszawa, PL"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
@@ -99,13 +99,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
     - label: "Protopia"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://protopia.tech"
 
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
@@ -114,7 +114,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
     - label: "Protopia"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://protopia.tech"
 
 defaults:
