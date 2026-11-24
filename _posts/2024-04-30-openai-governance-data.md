@@ -1,6 +1,6 @@
 ---
 title: OpenAI - Konfiguracja bezpieczeństwa - Ochrona danych
-date: 2024-04-31T23:00:00+01:00
+date: 2024-04-30T23:00:00+01:00
 header:
   teaser: /assets/images/2024/04/openai.webp
 categories:

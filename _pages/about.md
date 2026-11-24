@@ -3,16 +3,12 @@ permalink: /about/
 title: "O mnie"
 ---
 
-### Zawodowo
-Doradzam firmom w doborze technologii i w budowaniu strategii IT. Wraz z przyjaciółmi, Łukaszem i Szymonem, rozwijam firmę doradczą [Protopia](https://protopia.tech).  
-Jestem liderem warszawskiej [grupy Azure](https://www.facebook.com/groups/azureugpl/), Microsoft Azure [MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003117) i certyfikowanym trenerem Microsoft.  
-Moją pasją są nowe technologie, chmura publiczna oraz tematyka bezpieczeństwa IT.
+Jestem współzałożycielem [Protopii](https://protopia.tech), gdzie jako Managing Partner i Technology Advisor doradzam firmom w doborze technologii i budowaniu strategii IT.
+Specjalizuję się w API Management i integracjach systemów oraz w bezpiecznym wdrażaniu AI w organizacjach regulowanych – od wspólnej bramy do API i agentów AI po polityki dostępu do modeli.
 {: style="text-align: justify;"}
 
-### Prywatnie
-Mąż i tata trzech wspaniałych córek, z którymi spędzam więkość swojego wolnego czasu. Jakiś czas temu wyprowadziłem się do małej wioski zdala od warszawskiego zgiełku.
+Jestem Microsoft [MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003117) w kategorii Microsoft Azure i prowadzę warszawskie spotkania [Microsoft Azure User Group](https://www.facebook.com/groups/azureugpl/).
+W podcaście „Powered by Protopia” rozmawiam z liderami IT o API Management, integracjach i agentach AI.
 {: style="text-align: justify;"}
-
-### _
 
 ![mvp](../assets/images/MVP_Logo.png)

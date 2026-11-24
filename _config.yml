@@ -16,8 +16,9 @@
 title: "Marek Grabarz | O technologii i architekturze IT"
 email: m.grabarz@wp.pl
 description: >-
-  Pasjonat technologii i rozwiązań chmurowych, Microsoft Azure MVP oraz Microsoft Certified Trainer. 
-  Na codzień doradzam dużym firmom w zakresie rozwiązań technologicznych, buduję strategię IT oraz szkolę zaspoły klientów i ich partnerów.
+  Współzałożyciel Protopii, Managing Partner i Technology Advisor, Microsoft Azure MVP.
+  Na co dzień doradzam dużym firmom w doborze technologii i budowie strategii IT,
+  specjalizuję się w API Management, integracjach systemów i bezpiecznym wdrażaniu AI.
 
 twitter_username: marekgrabarz
 github_username: mgrabarz
@@ -85,15 +86,15 @@ plugins:
 author:
   name: "Marek Grabarz"
   avatar: "/assets/profilowe.jpg"
-  bio: "Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer."
+  bio: "Współzałożyciel Protopii, Managing Partner i Technology Advisor. Microsoft Azure MVP. API Management, integracje i bezpieczne wdrażanie AI."
   location: "Warszawa, PL"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/marekgrabarz"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/marekgrabarz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
@@ -106,9 +107,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grabarz/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/marekgrabarz"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/marekgrabarz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgrabarz"
@@ -149,12 +150,6 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "grabarz"
-
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-155099286-1"
-    anonymize_ip: false
 
 # Sass/SCSS
 sass:
